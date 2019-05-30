@@ -1,25 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
+import BottomNavigationComponent from './components/BottomNavigation';
+import Favorites from "./components/Favorites"
+import Posts from "./components/Posts"
+import User from "./components/User"
+import MenuNavigation from './components/MenuNavigation';
+
+function RouteWithSubRoutes(route) {
+  return (
+    <Route
+      path={route.path}
+      render={props => (
+        <route.component {...props} routes={route.routes} />
+      )}
+    />
+  );
+}
+
+const routes = [
+  {
+    path: "/",
+    component: MenuNavigation,
+    exact: true,
+    routes: [
+      {
+        path: "/posts",
+        component: Posts
+      },
+      {
+        path: "/favorites",
+        component: Favorites,
+      },
+      {
+        path: "/my-user",
+        component: User,
+      }
+    ]
+  }
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {routes.map((route, i) => (
+          <RouteWithSubRoutes key={i} {...route} />
+        ))}
+      </div>
+    </Router>
   );
 }
 
