@@ -1,12 +1,12 @@
 import React from 'react'
 
-function User() {
+function About() {
   return (
     <div>
-      USER
+      ABOUT
     </div>
   )
 }
 
-export default User;
+export default About;
 

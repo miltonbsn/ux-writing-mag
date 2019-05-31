@@ -12,7 +12,12 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import { withRouter } from 'react-router-dom'
+import { withRouter, Route } from 'react-router-dom'
+import PostCard from '../Articles/PostCard';
+import { Container } from '@material-ui/core';
+import Favorites from '../About';
+import Posts from '../Articles';
+import Contact from '../Contact';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -55,26 +60,31 @@ function MenuNavigation({ history }) {
     {
       title: "Home",
       icon: "home",
+      path: "/home",
       id: 1
     },
     {
       title: "Artigos",
       icon: "assignment",
+      path: "/articles",
       id: 2
     },
     {
       title: "Quem somos",
       icon: "home",
+      path: "/about",
       id: 3
     },
     {
       title: "Contato",
       icon: "home",
+      path: "/contact",
       id: 4
     },
     {
       title: "Categorias",
       icon: "home",
+      path: "/categories",
       id: 5
     },
   ]
@@ -88,7 +98,7 @@ function MenuNavigation({ history }) {
     >
       <List>
         {pages.map(page => (
-          <ListItem button key={page.id} onClick={() => goTo("/favorites")}>
+          <ListItem button key={page.id} onClick={() => goTo(page.path)}>
             <ListItemIcon>
               <Icon>{page.icon}</Icon>
             </ListItemIcon>
@@ -102,7 +112,7 @@ function MenuNavigation({ history }) {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" color="default">
+      <AppBar position="fixed" color="primary">
         <Toolbar>
           <IconButton onClick={toggleDrawer('left', true)} edge="start" className={classes.menuButton} color="inherit" aria-label="Menu">
             <Icon>menu</Icon>
@@ -112,6 +122,12 @@ function MenuNavigation({ history }) {
           </Typography>
         </Toolbar>
       </AppBar>
+      
+      <Container fixed style={{ marginTop: "100px" }}>
+        <Route path="/about" component={Favorites}></Route>
+        <Route path="/articles" component={Posts}></Route>
+        <Route path="/contact" component={Contact}></Route>
+      </Container>
       <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
         {sideList('left')}
       </Drawer>

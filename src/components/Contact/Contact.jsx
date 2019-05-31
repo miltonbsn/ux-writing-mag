@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Posts() {
+function Contact() {
   return (
     <div>
-      <span>POSTS</span>
+      Contact
     </div>
   )
 }
 
-export default Posts;
+export default Contact;
 

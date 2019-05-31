@@ -1,11 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import BottomNavigationComponent from './components/BottomNavigation';
-import Favorites from "./components/Favorites"
-import Posts from "./components/Posts"
-import User from "./components/User"
+import Favorites from "./components/About"
+import Posts from "./components/Articles"
+import User from "./components/Contact"
 import MenuNavigation from './components/MenuNavigation';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: { main: "#00ccff" },
+  },
+});
 
 function RouteWithSubRoutes(route) {
   return (
@@ -43,11 +50,11 @@ const routes = [
 function App() {
   return (
     <Router>
-      <div className="App">
-        {routes.map((route, i) => (
-          <RouteWithSubRoutes key={i} {...route} />
-        ))}
-      </div>
+      <ThemeProvider theme={theme}>
+        <div className="App">
+          <Route path="/" component={MenuNavigation}></Route>
+        </div>
+      </ThemeProvider>
     </Router>
   );
 }
