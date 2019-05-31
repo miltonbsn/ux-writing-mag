@@ -18,6 +18,7 @@ import { Container } from '@material-ui/core';
 import Favorites from '../About';
 import Posts from '../Articles';
 import Contact from '../Contact';
+import PostDetail from '../Articles/PostDetail';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -96,12 +97,10 @@ function MenuNavigation({ history }) {
       onClick={toggleDrawer(side, false)}
       onKeyDown={toggleDrawer(side, false)}
     >
+      <Divider />
       <List>
         {pages.map(page => (
-          <ListItem button key={page.id} onClick={() => goTo(page.path)}>
-            <ListItemIcon>
-              <Icon>{page.icon}</Icon>
-            </ListItemIcon>
+          <ListItem style={{ textAlign: "center" }} button key={page.id} onClick={() => goTo(page.path)}>
             <ListItemText primary={page.title} />
           </ListItem>
         ))}
@@ -117,8 +116,8 @@ function MenuNavigation({ history }) {
           <IconButton onClick={toggleDrawer('left', true)} edge="start" className={classes.menuButton} color="inherit" aria-label="Menu">
             <Icon>menu</Icon>
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            U:W
+          <Typography variant="h6" className={classes.title} style={{ marginLeft: "-52px" }}>
+            U:W Mag
           </Typography>
         </Toolbar>
       </AppBar>
@@ -127,6 +126,7 @@ function MenuNavigation({ history }) {
         <Route path="/about" component={Favorites}></Route>
         <Route path="/articles" component={Posts}></Route>
         <Route path="/contact" component={Contact}></Route>
+        <Route path="/post-detail" component={PostDetail}></Route>
       </Container>
       <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
         {sideList('left')}

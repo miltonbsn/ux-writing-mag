@@ -12,6 +12,11 @@ const theme = createMuiTheme({
   palette: {
     primary: { main: "#00ccff" },
   },
+  typography: {
+    fontFamily: [
+      "Ubuntu"
+    ]
+  }
 });
 
 function RouteWithSubRoutes(route) {

@@ -53,10 +53,12 @@ function PostCard() {
         image={image}
         title="Paella dish"
       />
-      <CardHeader
-        title="Título do artigo"
-        subheader="September 14, 2016"
-      />
+      <Typography component="h5" variant="h5">
+        Live From Space
+      </Typography>
+      <Typography variant="subtitle1" color="textSecondary">
+        Mac Miller
+      </Typography>
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
           This impressive paella is a perfect party dish and a fun meal to cook together with your
