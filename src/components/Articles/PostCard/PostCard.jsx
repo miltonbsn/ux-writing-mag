@@ -48,24 +48,14 @@ function PostCard() {
 
   return (
     <Card className={classes.card}>
-      <CardHeader
-        avatar={
-          <Avatar aria-label="Recipe" className={classes.avatar}>
-            R
-          </Avatar>
-        }
-        action={
-          <IconButton>
-            <Icon>more_vert</Icon>
-          </IconButton>
-        }
-        title="Título do artigo"
-        subheader="September 14, 2016"
-      />
       <CardMedia
         className={classes.media}
         image={image}
         title="Paella dish"
+      />
+      <CardHeader
+        title="Título do artigo"
+        subheader="September 14, 2016"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -74,12 +64,6 @@ function PostCard() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="Add to favorites">
-          <Icon>favorite</Icon>
-        </IconButton>
-        <IconButton aria-label="Share">
-          <Icon>share</Icon>
-        </IconButton>
         <Button style={{ marginLeft: "auto" }} size="small" color="primary">
           Ler mais
         </Button>
