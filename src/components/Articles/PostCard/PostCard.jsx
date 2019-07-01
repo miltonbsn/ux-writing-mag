@@ -14,6 +14,7 @@ import red from '@material-ui/core/colors/red';
 import Icon from '@material-ui/core/Icon';
 import image from "../../../images/duotone.png"
 import { Button } from '@material-ui/core';
+import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -38,7 +39,8 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function PostCard() {
+function PostCard({match, articleId}) {
+  console.log(articleId);
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -66,9 +68,7 @@ function PostCard() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <Button style={{ marginLeft: "auto" }} size="small" color="primary">
-          Ler mais
-        </Button>
+        <Link style={{ marginLeft: "auto" }} to={`/post-detail/${articleId}`}>Ler mais</Link>
       </CardActions>
     </Card>
   );

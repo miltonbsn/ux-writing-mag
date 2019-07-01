@@ -12,7 +12,7 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import { withRouter, Route } from 'react-router-dom'
+import { withRouter, Route, Link } from 'react-router-dom'
 import PostCard from '../Articles/PostCard';
 import { Container } from '@material-ui/core';
 import Favorites from '../About';
@@ -53,7 +53,6 @@ function MenuNavigation({ history }) {
   };
 
   const goTo = route => {
-    console.log(route)
     history.push(route);
   }
 
@@ -88,7 +87,41 @@ function MenuNavigation({ history }) {
       path: "/categories",
       id: 5
     },
+    {
+      title: "Topicos",
+      icon: "home",
+      path: "/topics",
+      id: 6
+    },
   ]
+
+  const Topic = ({ match }) => {
+    return <h3>Requested Param: {match.params.id}</h3>;
+  }
+
+  const Topics = ({ match }) => {
+    return (
+      <div>
+        <h2>Topics</h2>
+  
+        <ul>
+          <li>
+            <Link to={`${match.url}/components`}>Components</Link>
+          </li>
+          <li>
+            <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
+          </li>
+        </ul>
+  
+        <Route path={`${match.path}/:id`} component={Topic} />
+        <Route
+          exact
+          path={match.path}
+          render={() => <h3>Please select a topic.</h3>}
+        />
+      </div>
+    );
+  }
 
   const sideList = side => (
     <div
@@ -126,7 +159,8 @@ function MenuNavigation({ history }) {
         <Route path="/about" component={Favorites}></Route>
         <Route path="/articles" component={Posts}></Route>
         <Route path="/contact" component={Contact}></Route>
-        <Route path="/post-detail" component={PostDetail}></Route>
+        <Route path="/post-detail/:id" component={PostDetail}></Route>
+        <Route path="/topics" component={Topics}></Route>
       </Container>
       <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
         {sideList('left')}

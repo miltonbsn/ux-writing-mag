@@ -6,16 +6,16 @@ function Articles() {
     <div>
       <span>Articles</span>
       <div style={{ marginTop: "20px" }}>
-        <PostCard></PostCard>
+        <PostCard articleId={1}></PostCard>
       </div>
       <div style={{ marginTop: "20px" }}>
-        <PostCard></PostCard>
+        <PostCard articleId={2}></PostCard>
       </div>
       <div style={{ marginTop: "20px" }}>
-        <PostCard></PostCard>
+        <PostCard articleId={3}></PostCard>
       </div>
       <div style={{ marginTop: "20px" }}>
-        <PostCard></PostCard>
+        <PostCard articleId={4}></PostCard>
       </div>
     </div>
   )
