@@ -24,6 +24,10 @@ const useStyles = makeStyles(theme => ({
     width: "100%",
     marginBottom: 20
   },
+  imageText: {
+    width: "100%",
+    marginBottom: 20
+  },
   overview: {
     marginBottom: 20
   },
@@ -85,8 +89,11 @@ const Post = () => {
 
       <Container maxWidth="sm">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, adipisci. Repudiandae eaque explicabo suscipit optio expedita dolores fuga possimus nam nihil. Magnam, repellat esse nostrum blanditiis sapiente ducimus impedit illo!</p>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/539018871&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem mollitia ipsum voluptas et numquam officiis debitis dolor tempora necessitatibus similique nisi, ducimus neque, corporis consequatur earum optio pariatur itaque maxime.</p>
+        <img className={classes.imageText} src={`http://lorempixel.com/600/400/nightlife/${Math.floor((Math.random() * 10) + 1)}`} />
         <p>Fugit eius porro reiciendis placeat dolorem neque dolores hic. Enim ducimus at officia corrupti repudiandae dicta odit quis vero reiciendis porro. Vero, accusantium tempore tenetur totam nostrum corrupti eius officia.</p>
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/atss7XN2j8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>At molestias sit quis. Iste error asperiores in, consectetur accusantium ipsam doloremque unde quo, possimus, voluptas similique. Delectus illum officia architecto, maxime necessitatibus eum excepturi! Esse reprehenderit pariatur amet non.</p>
 
         <div className={classes.related}>
