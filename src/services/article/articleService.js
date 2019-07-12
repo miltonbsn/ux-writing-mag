@@ -1,5 +1,6 @@
 const articles = [
   {
+    "id": 1, 
     "title": "A importância da Experiência do Usuário",
     "overview": "O que é e como ela afeta a nossa percepção sobre um produto",
     "author": "Lilian Koyama",
@@ -25,7 +26,7 @@ const articles = [
     <p>Se você vê uma palavra sublinhada em um texto web, por exemplo, automaticamente já sabe que ao clicar, você será direcionado a outra página referente ao assunto. Se ao invés disso, a palavra estiver apenas negritada, talvez você nunca descubra sua funcionalidade.</p>
     <p>Da mesma forma, quando alguém entra no seu site ou aplicativo buscando algo, ele deve encontrar facilmente, sem encontrar obstáculos. Isso significa que, tantos os elementos gráficos quanto o conteúdo de uma página devem ser autoexplicativos, sem necessidade de grandes esforços por parte do usuário.</p>
     <p>Tornar as páginas evidentes por si só não é apenas uma questão de se destacar entre os seus concorrentes. Dependendo da situação, as pessoas não tem escolha e acessam o seu site porque é a sua única opção. </p>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/bu_ufsc_zJFiFoS1h.jpg' />
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/bu_ufsc_zJFiFoS1h.jpg'/>
     <h2>Estética X Estratégia</h2>
     <p>É importante ressaltar que uma boa experiência do usuário é diferente de apenas um design bonito.</p>
     <p>Para Leandro Lima, UX Designer da empresa Klarna em Estocolmo, na Suécia, a estética faz parte da experiência porque é como a pessoa percebe um produto, mas não deve ser prioridade em um projeto 'Coisas atraentes são legais. Mas ter um problema resolvido é melhor ainda. E interfaces que de fato resolvem problemas não precisam ser atraentes ou sequer percebidas'.</p>
@@ -37,3 +38,10 @@ const articles = [
 ];
 
 export const getArticles = () => { return articles };
+
+export const getArticle = (id) => { 
+  return articles.find(article => {
+     return id == article.id;
+    }
+  )
+};

@@ -41,17 +41,6 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-console.log(articleService.getArticles()[0]);
-
-const bx = articleService.getArticles()[0];
-
-const article = {
-  id: 3,
-  title: "Lorem ipsum dolor sit amet",
-  category: "Processo e ferramentas",
-  overview: "Ea molestias quasi exercitationem repellat qui ipsa sit aut"
-};
-
 const relatedPosts = [
   {
     id: 1,
@@ -66,8 +55,11 @@ const relatedPosts = [
   }
 ];
 
-const Post = () => {
+const Post = ({match}) => {
+
   const classes = useStyles();
+
+  const article = articleService.getArticle(match.params.id);
 
   window.scrollTo(0, 0);
 
@@ -75,27 +67,27 @@ const Post = () => {
     <div className={classes.root}>
       <Container maxWidth="sm">
         <Typography className={classes.category} variant="overline" component="h4">
-          {bx.category}
+          {article.category}
         </Typography>
 
         <Typography className={classes.title} variant="h4" gutterBottom component="h1">
-          {bx.title}
+          {article.title}
         </Typography>
 
         <Typography className={classes.overview} variant="subtitle1" gutterBottom component="p">
-          {bx.overview}
+          {article.overview}
         </Typography>
 
         <Typography className={classes.author} variant="caption" gutterBottom component="p">
-          by {bx.author} - {bx.when}
+          by {article.author} - {article.when}
         </Typography>
       </Container>
 
-      <img className={classes.image} src={bx.coverImage} alt={article.title}/>
+      <img className={classes.image} src={article.coverImage} alt={article.title}/>
 
       <Container maxWidth="sm">
 
-       {ReactHtmlParser(bx.body)}
+       {ReactHtmlParser(article.body)}
 
         <div className={classes.related}>
           <Title>Artigos relacionados</Title>

@@ -56,7 +56,7 @@ const BiggerPost = ({ post }) => {
         <Link style={{ marginLeft: "auto" }} to={`/post/${post.id}`}>
           <CardMedia
             className={classes.media}
-            image={`http://lorempixel.com/500/500/nightlife/${Math.floor((Math.random() * 10) + 1)}`}
+            image={post.coverImage}
             title={post.title}
           />
 
