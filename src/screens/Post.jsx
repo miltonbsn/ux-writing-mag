@@ -38,6 +38,9 @@ const useStyles = makeStyles(theme => ({
   },
   related: {
     marginTop: 50,
+  },
+  uxarticle: {
+    marginTop: 35
   }
 }));
 

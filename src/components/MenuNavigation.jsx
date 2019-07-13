@@ -108,33 +108,21 @@ function MenuNavigation({ history, ...props }) {
       id: 1
     },
     {
-      title: "Artigos",
-      icon: <ArticleIcon />,
-      path: "/articles",
-      id: 2
-    },
-    {
       title: "Categorias",
       icon: <CategoryIcon/>,
       path: "/categories",
       id: 5
     },
     {
-      title: "Topicos",
-      icon: <TopicsIcon />,
-      path: "/topics",
-      id: 6
-    },
-    {
-      title: "Quem somos",
+      title: "Sobre",
       icon: <AboutIcon />,
       path: "/about",
       id: 3
     },
     {
-      title: "Contato",
+      title: "Compartilhe",
       icon: <ContactIcon />,
-      path: "/contact",
+      path: "/share",
       id: 4
     }
   ]

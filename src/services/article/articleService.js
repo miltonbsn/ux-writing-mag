@@ -9,9 +9,10 @@ const articles = [
     "coverImage": "https://ik.imagekit.io/uxmag/ux-mag1_vj2uMeZXS.jpg",
     "body": `
     <p>Todos já ouvimos falar que a primeira impressão é a que fica. Se nas relações interpessoais a frase pode gerar discussões, na tecnologia ela é comprovadamente um fato. </p>
+    <caption> oi </caption>
     <p>Segundo uma pesquisa do Marketwired de 2014, 90% dos usuários relataram parar de usar um aplicativo ou desinstalá-lo do celular porque tiveram uma primeira experiência ruim. </p>
     <p>A experiência e interação com um produto, serviço ou marca é fundamental para que uma pessoa defina sua percepção e sentimentos em relação a eles. E é isso que os profissionais de UX procuram estudar e, claro, melhorar.</p>
-    <h2>O que é a Experiência do Usuário? </h2>
+    <h2 class="uxarticle">O que é a Experiência do Usuário? </h2>
     <p>O termo foi cunhado pelo estadunidense Donald Norman nos anos 90, quando trabalhava como engenheiro de usabilidade para a Apple. </p>
     <p>Quando questionado sobre o <a href="https://www.youtube.com/embed/9BdtGjoIN4E" target="_blank"> significado do termo UX </a> (User Experience ou, em português, Experiência do Usuário), ele respondeu que são todas as etapas de contato entre uma pessoa e um produto, sistema ou serviço. Essas etapas podem causar sensações positivas ou negativas no indivíduo. Usando como exemplo um computador da Apple, a experiência do usuário começa desde o momento em que você pesquisa e se informa sobre o produto, faz a compra na loja, quando abre a caixa em sua casa, até a hora em que está usando seu Macbook no dia a dia.</p>
     <p>Don Norman defende em seu livro 'O design do dia a dia' que a experiência deve ser centrada no usuário, baseada nas suas necessidades e interesses, e 'que dê atenção especial à questão de fazer produtos compreensíveis e facilmente utilizáveis'. </p>
