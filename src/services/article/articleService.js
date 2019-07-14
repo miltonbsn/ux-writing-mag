@@ -151,7 +151,7 @@ const articles = [
     <p>Como o texto e o visual eram criados separadamente, era comum as brigas entre profissionais: o designer queria priorizar a estética e, o redator, o conteúdo.</p>
     <strong>E nas empresas de tecnologia, o que deve vir primeiro: o conteúdo ou o design visual?</strong>
     <p>Veja o que pensam alguns profissionais: </p>
-    <h2 style="margin-top:35px; margin-bottom:-3px";>Yuval Keshtcher - Fundador do portal UX Writing Hub e professor do primeiro curso online sobre o assunto</h2>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Yuval Keshtcher - Fundador do portal UX Writing Hub</h2>
     <figure>
     <img style='width:100%;' src='https://ik.imagekit.io/uxmag/Yuval_Keshtcher_J38dCe4Mn.jpeg'/>
     </figure>
