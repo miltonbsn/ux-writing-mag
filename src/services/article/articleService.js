@@ -14,17 +14,17 @@ const articles = [
     <h2 style="margin-top:35px; margin-bottom:-3px;">O que é a Experiência do Usuário? </h2>
     <p>O termo foi cunhado pelo estadunidense Donald Norman nos anos 90, quando trabalhava como engenheiro de usabilidade para a Apple. </p>
     <p>Quando questionado sobre o <a href="https://www.youtube.com/embed/9BdtGjoIN4E" target="_blank"> significado do termo UX </a> (User Experience ou, em português, Experiência do Usuário), ele respondeu que são todas as etapas de contato entre uma pessoa e um produto, sistema ou serviço. Essas etapas podem causar sensações positivas ou negativas no indivíduo. Usando como exemplo um computador da Apple, a experiência do usuário começa desde o momento em que você pesquisa e se informa sobre o produto, faz a compra na loja, quando abre a caixa em sua casa, até a hora em que está usando seu Macbook no dia a dia.</p>
-    <p>Don Norman defende em seu livro 'O design do dia a dia' que a experiência deve ser centrada no usuário, baseada nas suas necessidades e interesses, e 'que dê atenção especial à questão de fazer produtos compreensíveis e facilmente utilizáveis'. </p>
+    <p>Don Norman defende em seu livro "O design do dia a dia" que a experiência deve ser centrada no usuário, baseada nas suas necessidades e interesses, e "que dê atenção especial à questão de fazer produtos compreensíveis e facilmente utilizáveis". </p>
     <figure>
     <img style='width:100%;' src='https://ik.imagekit.io/uxmag/LRM_EXPORT_181064190900683_20190711_234108308_RKPNds5E3.jpeg' />
     <figcaption>Apesar de ser uma tarefa simples, você pode precisar de algumas tentativas para conseguir encaixar o cabo USB no seu computador </figcaption>
     </figure>
     <p>Problemas de usabilidade parecem triviais, mas podem significar a diferença entre prazer e frustração, e se estender a operações mais complexas, com vidas humanas em jogo. <p>
     <p>Antes de trabalhar na Apple, em 1979, o pesquisador estava na equipe de cientistas sociais e comportamentais responsável por determinar o motivo pelo qual os operadores da sala de controle tinham cometido o acidente que quase explodiu a usina nuclear de Three Mile Island.</p>
-    <p>'Para minha surpresa, concluímos que a culpa não era deles, a culpa era da concepção e desenho do projeto do controle central' conta Don Norman em seu livro.</p>
+    <p>"Para minha surpresa, concluímos que a culpa não era deles, a culpa era da concepção e desenho do projeto do controle central" conta Don Norman em seu livro.</p>
     <h2 style="margin-top:35px; margin-bottom:-3px;">As pessoas não gostam de pensar mais do que elas precisam</h2>
     <p>Não se ofenda com a afirmação, mas é da natureza humana evitar gastar energia à toa. E esse é um fator importante ao pensar experiência do usuário. </p>
-    <p>A primeira lei de usabilidade, tanto no ambiente web quanto mobile, segundo Steve Krug, consultor especializado, é 'Não me faça pensar'. Regra que dá título ao seu livro, considerado um dos mais importantes sobre usabilidade e interação do homem com o computador.</p>
+    <p>A primeira lei de usabilidade, tanto no ambiente web quanto mobile, segundo Steve Krug, consultor especializado, é "Não me faça pensar". Regra que dá título ao seu livro, considerado um dos mais importantes sobre usabilidade e interação do homem com o computador.</p>
     <figure>
     <img style='width:100%;' src='https://ik.imagekit.io/uxmag/LRM_EXPORT_181668030856251_20190711_235112148_kccyJwVxL.jpeg' />
     <figcaption>Página inicial do Google é exemplo de boa usabilidade: sua interface é simples e intuitiva</figcaption>
@@ -38,7 +38,7 @@ const articles = [
     </figure>
     <h2 style="margin-top:35px; margin-bottom:-3px";>Estética X Estratégia</h2>
     <p>É importante ressaltar que uma boa experiência do usuário é diferente de apenas um design bonito.</p>
-    <p>Para Leandro Lima, UX Designer da empresa Klarna em Estocolmo, na Suécia, a estética faz parte da experiência porque é como a pessoa percebe um produto, mas não deve ser prioridade em um projeto 'Coisas atraentes são legais. Mas ter um problema resolvido é melhor ainda. E interfaces que de fato resolvem problemas não precisam ser atraentes ou sequer percebidas'.</p>
+    <p>Para Leandro Lima, UX Designer da empresa Klarna em Estocolmo, na Suécia, a estética faz parte da experiência porque é como a pessoa percebe um produto, mas não deve ser prioridade em um projeto "Coisas atraentes são legais. Mas ter um problema resolvido é melhor ainda. E interfaces que de fato resolvem problemas não precisam ser atraentes ou sequer percebidas".</p>
     <figure>
     <img style='width:100%;' src='https://ik.imagekit.io/uxmag/estetica_X_UX_fOk37C2fK.jpg' />
     <figcaption>A diferença entre um projeto baseado na experiência do usuário e o outro na estética. Créditos: Steffen Kalve</figcaption>
@@ -48,7 +48,7 @@ const articles = [
     <img style='width:100%;' src='https://ik.imagekit.io/uxmag/Leandro_Lima_ZgItHUVfJ.jpeg' />
     <figcaption>Leandro Lima, UX Designer da Klarna,  conta que apostar na diversidade da equipe é a um fator chave para pensar uma usabilidade que atenda diferentes públicos e necessidades</figcaption>    
     </figure>
-    <p>O designer conta que uma das maiores preocupações da empresa é ser compreendida e funcional para todas essas pessoas 'Chineses, turcos, ocidentais, cada um tem uma percepção do que é bonito. Não podemos agradar a todos, mas queremos que todos saibam como usar nosso site'.</p>`
+    <p>O designer conta que uma das maiores preocupações da empresa é ser compreendida e funcional para todas essas pessoas "Chineses, turcos, ocidentais, cada um tem uma percepção do que é bonito. Não podemos agradar a todos, mas queremos que todos saibam como usar nosso site".</p>`
   }, 
   {
     "id": 2, 
@@ -61,12 +61,18 @@ const articles = [
     "body": `
     <p>Os fundadores do site de hospedagem Airbnb, durante a concepção do projeto, tiveram que lidar com um dilema: não sabiam como passar a segurança para anfitriões abrirem suas casas e, ao mesmo tempo, os hóspedes ficarem tranquilos dormindo na propriedade de um desconhecido.</p>
     <p>A solução? Investir na experiência do usuário do site. Não apenas em uma interface intuitiva e em um esquema de avaliação de anfitriões e hóspedes mas, principalmente, no conteúdo dos textos da página. </p>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/tia8378820869818833850_2ntzJWwAZ.png' />
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/tia8378820869818833850_2ntzJWwAZ.png'/>
+    <figcaption>Interface e discursos da empresa Airbnb têm o propósito de "fazer você se sentir em casa em qualquer lugar" </figcaption>    
+    </figure>
     <p>Na imagem acima, da página do Airbnb, a caixa de busca é representada pela lupa ao lado do texto em cinza claro Experimente "Bali", frase simples e gentil que indica a função do campo e sugere uma próxima ação. Muitos botões poluem o visual e confundem o usuário. Por isso,  para evitar distrações, as opções de filtro só aparecem quando você interage com o campo. </p>
-    <p>A construção das frases pode transformar completamente a maneira como o usuário experimenta um site: pode tanto guiá-lo às ações corretas e ter entendimento da navegação, como pode causar confusão e frustração. </p>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/72c9888b673ec174a39a3551ecdfc7c0_uQjTcZQkD.jpeg' />
-    <p>Assim como em um texto para jornal, um título de uma revista ou uma chamada de um anúncio em um outdoor, as palavras precisam ter uma função e um razão para ocuparem aquele espaço. No caso dos textos de UX Writing, as palavras devem instruir o usuário a engajar e ter o entendimento do produto. </p>
-    <h2 style="margin-top:35px; margin-bottom:-3px;">A valorização do conteúdo e surgimento dos UX Writers</h2>
+    <p>A construção das frases pode transformar completamente a maneira como o usuário experimenta um site: pode tanto guiá-lo às ações corretas e ter entendimento da navegação, como pode causar confusão e frustração.</p>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/72c9888b673ec174a39a3551ecdfc7c0_uQjTcZQkD.jpeg'/>
+    <figcaption>Mensagem de erro do Windows: você consegue entender qual foi o erro do sistema e qual deve ser sua próxima ação? </figcaption>    
+    </figure>
+    <p>Assim como em um texto para jornal, um título de uma revista ou uma chamada de um anúncio em um outdoor, as palavras precisam ter uma função e um razão para ocuparem aquele espaço. No caso dos textos de UX Writing, as palavras devem instruir o usuário a engajar e ter o entendimento do produto.</p>
+    <h2 style="margin-top:35px; margin-bottom:-3px;">A valorização do conteúdo e surgimento dos UX Writers</h2>
     <p>Em seu famoso relatório de tendências de Design e Tecnologia, John Maeda - considerado uma referência na área - faz uma previsão anual com bases em seus estudos e entrevistas com as principais empresas de tecnologia do mundo. Em 2017, o título de um dos artigos, traduzido para o português, é "Esqueça a programação: escrever é a nova "habilidade de unicórnio" dos designers". </p>
     <p>"Habilidade de unicórnio" é uma referência a um termo usado como piada entre designers, já que muitos empregadores têm uma lista infinita de requisitos para uma vaga de emprego que nem sempre são características de um designer, como a programação. </p>
     <p>Hoje, dois anos depois da previsão, empresas de tecnologia como Google, Apple, Samsung, Oracle, Facebook, todas já possuem times estruturados com UX Writers. </p>
