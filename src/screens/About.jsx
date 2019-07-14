@@ -32,8 +32,8 @@ function About() {
       <img className={classes.image} src={"https://ik.imagekit.io/uxmag/Linda__YIXuI9TAi.jpeg"} alt="Sobre" />
 
       <Container maxWidth="sm">
-        <p>Meu Trabalho de Conclusão de Curso da Universidade Federal de Santa Catarina foi a oportunidade ideal para desenvolver uma plataforma em que eu pudesse me dedicar ainda mais a explorar as possibilidades do UX Writing, publicar meus aprendizados e compartilhar esse conhecimento com outros jornalistas e redatores interessados. </p>
         <p>Foi em 2017 que descobri o UX Writing, assim que o John Maeda publicou seu relatório anual de tendências, apontando a criação de conteúdo como fator essencial para uma boa Experiência do Usuário. Cursando jornalismo e trabalhando na área de tecnologia, logo me encantei pela nova profissão e decidi me aprofundar nos estudos. </p>
+        <p>Meu Trabalho de Conclusão de Curso da Universidade Federal de Santa Catarina foi a oportunidade ideal para desenvolver uma plataforma em que eu pudesse me dedicar ainda mais a explorar as possibilidades do UX Writing, publicar meus aprendizados e compartilhar esse conhecimento com outros jornalistas e redatores interessados. </p>
         <ul className={classes.speciallist} style={{ listStyleType: "none" }}>
         <li><strong>Textos e Gestão do Projeto:</strong> Lilian Koyama </li>
         <li><strong>Orientação:</strong> Professora Rita Paulino </li>
