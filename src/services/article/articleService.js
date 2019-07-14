@@ -94,7 +94,7 @@ const articles = [
     "author": "Lilian Koyama",
     "category": "DICAS",
     "when": "11 de junho de 2019",
-    "coverImage": "https://ik.imagekit.io/uxmag/8919264e-d7af-4b0b-8a18-9c1ecb4cb402_fAu5Z4D5P.jpeg",
+    "coverImage": "https://ik.imagekit.io/uxmag/LRM_EXPORT_286402555051185_20190714_002643591_Fj-CROk2Q.jpeg",
     "body": `
     <p>O UX Writer está ganhando cada vez mais prestígio e destaque. Mas afinal de contas, quais são os superpoderes que tornam esse profissional tão necessário?</p>
     <p><strong>Faça o seguinte teste agora:</strong> entre em qualquer software ou aplicativo. Todo o texto que você encontrar ao navegar pelo produto, deve (ou pelo menos deveria) ter sido criado por UX Writer.</p>
@@ -111,8 +111,16 @@ const articles = [
     <li><strong>Conciso:</strong> quanto mais rápido de ser lido e 'escaneado' com os olhos, melhor;</li>
     <li><strong>Consistência:</strong> ter um padrão de linguagem ajuda a definir o tom da marca.</li>
     </ul>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/erro-msn-4_MmC1PEwET.jpg'/>
+    <figcaption>Mensagens de erro longas e confusas acabam frustrando o usuário</figcaption>    
+    </figure>
     <p>Esses três princípios devem trabalhar sempre juntos, o que não significa que eles nunca vão conflitar entre si. O trabalho do UX Writer é entender qual a melhor forma de equilibrá-los. Para isso, primeiro, o profissional deve saber qual o tom e voz da marca que ele representa. Ele deve considerar se a marca quer transmitir conhecimento e inovação, proximidade e alegria ou seriedade e respeitabilidade.</p>    
     <p><strong>Todas as comunicações precisam ser consistentes e ter a mesma linguagem.</strong> Essa é também, segundo o UX Writer da empresa Shakuro, Moses Kim, uma forma da empresa ter controle sobre como ela se relaciona com seus consumidores.</p>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/info_jim_oxr6jTu3P.png'/>
+    <figcaption>Em tom descontraído, rapidamente entendemos qual foi o erro e as possíveis soluções</figcaption>    
+    </figure>    
     <h2 style="margin-top:35px; margin-bottom:-3px";>Como exercitar seu UX Writing</h2>
     <p>Se você tem conhecimento em inglês, uma boa dica é começar o  <a href="https://dailyuxwriting.com/" target="_blank"> desafio "Daily UX Writing"</a>. Durante 15 dias,  você receberá um e-mail com uma situação e uma instrução para criar um texto. </p>
     <p>Aqui está um exemplo traduzido:</p>
