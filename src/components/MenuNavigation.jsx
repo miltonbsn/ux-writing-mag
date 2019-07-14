@@ -16,12 +16,10 @@ import InputBase from '@material-ui/core/InputBase';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
-import ArticleIcon from '@material-ui/icons/ChromeReaderMode';
 import AboutIcon from '@material-ui/icons/Domain';
 import SearchIcon from '@material-ui/icons/Search';
 import ContactIcon from '@material-ui/icons/Email';
 import CategoryIcon from '@material-ui/icons/Label';
-import TopicsIcon from '@material-ui/icons/ListAlt';
 
 const useStyles = makeStyles(theme => ({
   root: {

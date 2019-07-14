@@ -15,24 +15,18 @@ body {
   box-sizing: border-box;
 }
 
-h2 .uxarticle {
-  margin-block-start: 100px;
-  margin-top: 35px;
-  margin-bottom: -3px;
-}
-
-h2.uxarticle {
-  margin-block-start: 100px;
-  margin-top: 35px;
-  margin-bottom: -3px;
-}
-
 .uxarticle {
   margin-block-start: 100px;
   margin-top: 35px;
   margin-bottom: -3px;
 }
 
-caption {
-  background-color: aqua;
+figure {
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+figcaption {
+  color: #616161;
+  font-size: 14px;
 }
