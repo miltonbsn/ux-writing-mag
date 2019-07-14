@@ -86,7 +86,50 @@ const articles = [
     <h2 style="margin-top:35px; margin-bottom:-3px";>Conclusão</h2>
     <p>Se por um lado, o conteúdo é visto como uma mercadoria barata, por outro, é visto como um ponto estratégico e essencial para o desenvolvimento de um projeto, serviço ou produto. A profissão de UX Writer é uma maneira do profissional de conteúdo, redatores e jornalistas, aplicar suas habilidades de escrita, comunicação, pesquisa e entrevista. Mesmo que permaneçam na área do jornalismo, ter conhecimento do conceito de UX Writing pode beneficiá-los a criar produtos jornalísticos mais pensados na experiência do usuário, no caso, os leitores. </p>
     `
-  }
+  },
+  {
+    "id": 3, 
+    "title": "Os princípios do UX Writing",
+    "overview": "Compilado de dicas e ensinamentos para guiar os seus textos",
+    "author": "Lilian Koyama",
+    "category": "DICAS",
+    "when": "11 de junho de 2019",
+    "coverImage": "https://ik.imagekit.io/uxmag/8919264e-d7af-4b0b-8a18-9c1ecb4cb402_fAu5Z4D5P.jpeg",
+    "body": `
+    <p>O UX Writer está ganhando cada vez mais prestígio e destaque. Mas afinal de contas, quais são os superpoderes que tornam esse profissional tão necessário?</p>
+    <p><strong>Faça o seguinte teste agora:</strong> entre em qualquer software ou aplicativo. Todo o texto que você encontrar ao navegar pelo produto, deve (ou pelo menos deveria) ter sido criado por UX Writer.</p>
+    <p>Para o usuário, é crucial entender de forma rápida qual é a ação esperada dele.</p>
+    <p>Um exemplo de boa usabilidade é o aplicativo de entrega de comida IFood. Mesmo quem tem pouca familiaridade com tecnologia consegue navegar entre as opções e fazer o seu pedido.</p>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/LRM_EXPORT_186266336441308_20190712_012021760_Z4TcOgsVC.jpeg'/>
+    <figcaption>Perfil de cada restaurante tem todas as informações necessárias de forma clara e concisa</figcaption>    
+    </figure>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Três princípios básicos</h2>
+    <p>Durante uma palestra para o maior evento de desenvolvimento de Software do Brasil, o <em>The Developers Conference</em>, realizada em abril de 2019 em Florianópolis, Alice Saraiva, uma das primeiras UX Writers do país, elencou 3 princípios básicos para todo texto de UX Writing: <strong>clareza, concisão e consistência.</strong> </p>
+    <ul>
+    <li><strong>Claro:</strong> é preciso entender a mensagem, sem possibilidade para múltiplas interpretações;</li>
+    <li><strong>Conciso:</strong> quanto mais rápido de ser lido e 'escaneado' com os olhos, melhor;</li>
+    <li><strong>Consistência:</strong> ter um padrão de linguagem ajuda a definir o tom da marca.</li>
+    </ul>
+    <p>Esses três princípios devem trabalhar sempre juntos, o que não significa que eles nunca vão conflitar entre si. O trabalho do UX Writer é entender qual a melhor forma de equilibrá-los. Para isso, primeiro, o profissional deve saber qual o tom e voz da marca que ele representa. Ele deve considerar se a marca quer transmitir conhecimento e inovação, proximidade e alegria ou seriedade e respeitabilidade.</p>    
+    <p><strong>Todas as comunicações precisam ser consistentes e ter a mesma linguagem.</strong> Essa é também, segundo o UX Writer da empresa Shakuro, Moses Kim, uma forma da empresa ter controle sobre como ela se relaciona com seus consumidores.</p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Como exercitar seu UX Writing</h2>
+    <p>Se você tem conhecimento em inglês, uma boa dica é começar o  <a href="https://dailyuxwriting.com/" target="_blank"> desafio "Daily UX Writing"</a>. Durante 15 dias,  você receberá um e-mail com uma situação e uma instrução para criar um texto. </p>
+    <p>Aqui está um exemplo traduzido:</p>
+    <p><strong>Cenário:</strong> Um viajante está no aeroporto esperando pela última parte de seu voo para casa quando o voo é cancelado abruptamente devido ao mau tempo.</p>
+    <p><strong>Desafio:</strong> Escreva uma mensagem do aplicativo da companhia aérea notificando sobre o cancelamento e o que é preciso fazer a seguir.</p> 
+    <p>Título máximo de 40 caracteres, corpo do texto máximo de 100 caracteres e um botão com máximo de 25 caracteres.</p> 
+    <p>No e-mail também seguem dois links: um artigo com dicas de como escrever sobre falhas e cancelamentos; e o grupo no Facebook para postar o desafio e trocar feedbacks.</p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Exemplos de Guias de Redação</h2>
+    <p>Se você tem curiosidade em saber como as marcas se expressam por meio das suas comunicações, aqui vão alguns exemplos de Guias de Redação:</p>
+    <ul>
+    <li><strong>Conta Azul:</strong> <a href="https://guiaderedacao.contaazul.design" target="_blank">Manual de Redação da Conta Azul</a></li>
+    <li><strong>Mercado Livre:</strong> <a href="http://ux.mercadolibre.com/brandbook/br/voz.html" target="_blank">Manual da Marca do Mercado Livre</a></li>
+    <li><strong>MailChimp:</strong> <a href="https://styleguide.mailchimp.com/" target="_blank">Guia de Conteúdo da MailChimp (inglês)</a></li>
+    <li><strong>BuzzFeed:</strong> <a href="https://www.buzzfeed.com/emmyf/buzzfeed-style-guide?utm_term=.uc42qM0log#.yfrQ1Za7y2" target="_blank">Guia de Estilo do BuzzFeed (inglês)</a></li>
+    <ul>
+    `
+  }  
 ];
 
 export const getArticles = () => { return articles };
