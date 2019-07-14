@@ -137,6 +137,58 @@ const articles = [
     <li><strong>BuzzFeed:</strong> <a href="https://www.buzzfeed.com/emmyf/buzzfeed-style-guide?utm_term=.uc42qM0log#.yfrQ1Za7y2" target="_blank">Guia de Estilo do BuzzFeed (inglês)</a></li>
     <ul>
     `
+  },
+  {
+    "id": 4, 
+    "title": "Conteúdo ou design: o que vem primeiro?",
+    "overview": "Quatro profissionais contam como funciona o processo de criação da experiência do usuário nas empresas em que trabalham",
+    "author": "Lilian Koyama",
+    "category": "Métricas e Processos",
+    "when": "11 de junho de 2019",
+    "coverImage": "https://ik.imagekit.io/uxmag/LRM_EXPORT_286222728089699_20190714_002343764_XCUp4b9hv.jpeg",
+    "body": `
+    <p>O "Lorem Ipsum" já foi uma ferramenta chave para os designers e diagramadores. Basta escolher a quantidade de caracteres ou parágrafos, e o site gera um conteúdo fictício com a extensão desejada. Depois, era necessário adaptar a redação para encaixar nesse espaço.</p>
+    <p>Como o texto e o visual eram criados separadamente, era comum as brigas entre profissionais: o designer queria priorizar a estética e, o redator, o conteúdo.</p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>E nas empresas de tecnologia, o que deve vir primeiro: o conteúdo ou o design visual?</h2>
+    <p>Veja o que pensam alguns profissionais: </p>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/Yuval_Keshtcher_J38dCe4Mn.jpeg'/>
+    <figcaption>Yuval Keshtcher - Fundador do portal UX Writing Hub e professor do primeiro curso online sobre o assunto</figcaption>    
+    </figure>
+    <p>Durante a entrevista, feita por skype no começo deste ano, Yuval estava em Berlim, um dos maiores polos de tecnologia do mundo, se preparando para dar uma palestra sobre o futuro do UX Writing. </p>
+    <p>Para o israelense, esse é um assunto polêmico e o fluxo do processo pode variar de empresa para empresa, mas ele defende que o importante é que todos os envolvidos no projeto estejam de acordo com o conceito do produto final. </p> 
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/1_z55lSZpQj0NM7tbqc3v5yw_DYj9TAdfd.jpeg'/>
+    <figcaption>Alice Saraiva - Content Strategist & UX Writer na Badaró</figcaption>    
+    </figure>
+    <p>Alice Saraiva defende que o ideal é que conteúdo e design sejam criados juntos, com o mesmo nível de importância.</p>
+    <p>"Às vezes, é difícil convencer seu líder, designers e desenvolvedores sobre o impacto de um bom conteúdo na experiência do usuário. As pessoas acham que a única coisa que chama a atenção é o design e o texto é um detalhe secundário".</p>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/Screen_Shot_2019-07-14_at_01.01.42_LyJDZGNB6.png'/>
+    <figcaption>Alice Saraiva durante palestra sobre UX Writing no The Developers Conference de 2019</figcaption>    
+    </figure>
+    <p>Durante sua carreira, ela conta que precisou insistir muito em participar de todos os processos de pesquisa e concepção, e garante que os resultados provam o poder que o profissional do conteúdo tem na estratégia do produto.</p>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/jo_o_W6Lmc8qwa.png'/>
+    <figcaption>João Menezes - Product Design Coordinator na Conta Azul </figcaption>    
+    </figure> 
+    <p>Em 2017, o Coordenador do Design de Produto da ContaAzul, referência na área de tecnologia de Santa Catarina, João Menezes iniciou um projeto para contribuir com o estabelecimento da competência  de UX Writing na empresa. </p>
+    <p>Começou elaborando um <a href="https://guiaderedacao.contaazul.design/" target="_blank"> Guia de Redação</a> para que todos os textos criados pelos designers tivessem um padrão e fossem baseados em algumas regras de usabilidade. </p>
+    <p>Depois, a UX Writer da equipe faz a revisão e garante que tudo esteja "coeso, conciso e intuitivo" diz. </p>
+    <p>No trecho da entrevista abaixo, João Menezes conta um pouco mais sobre sua iniciativa e os processos da sua equipe na Conta Azul: </p> 
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/648688340%3Fsecret_token%3Ds-p9chz&color=%232c404c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/1_vFhS2Lz6s1ezIHR65lBrdg_NLncXKwcL.jpeg'/>
+    <figcaption>Leandro Lima - Senior Product Designer na Klarna</figcaption>    
+    </figure> 
+    <p>Antes de trabalhar na Klarna, em Estocolmo, Leandro Lima trabalhou na Booking.com, em Amsterdã, na equipe responsável pelo programa de fidelidade “Genius” do site "Quando entrei na equipe, eram 20 mil usuários usando a funcionalidade e quatro pessoas na equipe. Quando saí eram 100 milhões de usuários e quase 70 profissionais". </p>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/tia461396092054709144_9gP3Bdsys.png'/>
+    <figcaption>Programa de fidelidade com vantagens para clientes da Booking.com</figcaption>    
+    </figure> 
+    <p>Destes, 60 eram designers e apenas dois UX Writers. Como havia muita demanda, os dois se dedicavam apenas nos momentos mais estratégicos, como o planejamento, pesquisa com usuário e revisão do conteúdo criado pelos designers.</p> 
+    <p>Leandro afirma que não era uma questão de falta de verba ou desvalorização dos profissionais, mas a empresa tinha dificuldades em encontrar profissionais redatores capacitados que entendessem tanto de tecnologia como de experiência do usuário.</p> 
+    `
   }  
 ];
 
