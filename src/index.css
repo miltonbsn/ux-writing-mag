@@ -24,6 +24,8 @@ body {
 figure {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 figcaption {
