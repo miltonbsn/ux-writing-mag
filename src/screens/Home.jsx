@@ -17,7 +17,7 @@ const Home = () => {
         <Title>Últimos artigos</Title>
 
         <Grid container spacing={4}>
-          {posts.map(item => (
+          {posts.filter((item, index) => index !== 0).map(item => (
             <Grid key={item.id} item xs={6}>
               <SmallerPost post={item} />
             </Grid>
