@@ -44,25 +44,26 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const relatedPosts = [
-  {
-    id: 1,
-    title: "Lorem ipsum dolor sit amet",
-    category: "Entrevistas",
-    overview: "ea molestias quasi exercitationem repellat qui ipsa sit aut"
-  },{
-    id: 2,
-    title: "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-    category: "Dicas",
-    overview: "ea molestias quasi exercitationem repellat qui ipsa sit aut"
-  }
-];
+// const relatedPosts = [
+//   {
+//     id: 1,
+//     title: "Lorem ipsum dolor sit amet",
+//     category: "Entrevistas",
+//     overview: "ea molestias quasi exercitationem repellat qui ipsa sit aut"
+//   },{
+//     id: 2,
+//     title: "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+//     category: "Dicas",
+//     overview: "ea molestias quasi exercitationem repellat qui ipsa sit aut"
+//   }
+// ];
 
 const Post = ({match}) => {
 
   const classes = useStyles();
 
   const article = articleService.getArticle(match.params.id);
+  const relatedPosts = articleService.getRelatedPosts(article.id, article.category);
 
   window.scrollTo(0, 0);
 
@@ -94,7 +95,6 @@ const Post = ({match}) => {
 
         <div className={classes.related}>
           <Title>Artigos relacionados</Title>
-
           <Grid container spacing={4}>
             {relatedPosts.map(item => (
               <Grid key={item.id} item xs={6}>

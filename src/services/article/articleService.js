@@ -143,7 +143,7 @@ const articles = [
     "title": "Conteúdo ou design: o que vem primeiro?",
     "overview": "Quatro profissionais contam como funciona o processo de criação da experiência do usuário nas empresas em que trabalham",
     "author": "Lilian Koyama",
-    "category": "Métricas e Processos",
+    "category": "Métricas e processos",
     "when": "11 de junho de 2019",
     "coverImage": "https://ik.imagekit.io/uxmag/LRM_EXPORT_286222728089699_20190714_002343764_XCUp4b9hv.jpeg",
     "body": `
@@ -195,7 +195,7 @@ const articles = [
     "title": "Testes de usabilidade para UX Writing",
     "overview": "Metodologias qualitativas para avaliar a performance do seu texto com seu usuário",
     "author": "Lilian Koyama",
-    "category": " Métricas e processos",
+    "category": "Métricas e processos",
     "when": "11 de junho de 2019",
     "coverImage": "https://ik.imagekit.io/uxmag/588c32fb-2106-4447-827c-6c4523a61a09_lYeEFni3s.jpeg",
     "body": `
@@ -289,6 +289,12 @@ const articles = [
 ];
 
 export const getArticles = () => { return articles };
+
+export const getRelatedPosts = (articleId, category) => {
+  console.log(articleId);
+  console.log(category);
+  return articles.filter(article => articleId !== article.id && category === article.category);
+}
 
 export const getArticle = (id) => { 
   return articles.find(article => {
