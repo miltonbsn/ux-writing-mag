@@ -189,7 +189,103 @@ const articles = [
     <p>Destes, 60 eram designers e apenas dois UX Writers. Como havia muita demanda, os dois se dedicavam apenas nos momentos mais estratégicos, como o planejamento, pesquisa com usuário e revisão do conteúdo criado pelos designers.</p> 
     <p>Leandro afirma que não era uma questão de falta de verba ou desvalorização dos profissionais, mas a empresa tinha dificuldades em encontrar profissionais redatores capacitados que entendessem tanto de tecnologia como de experiência do usuário.</p> 
     `
-  }  
+  },
+  {
+    "id": 5, 
+    "title": "Testes de usabilidade para UX Writing",
+    "overview": "Metodologias qualitativas para avaliar a performance do seu texto com seu usuário",
+    "author": "Lilian Koyama",
+    "category": " Métricas e processos",
+    "when": "11 de junho de 2019",
+    "coverImage": "https://ik.imagekit.io/uxmag/588c32fb-2106-4447-827c-6c4523a61a09_lYeEFni3s.jpeg",
+    "body": `
+    <p>Os testes de usabilidade servem para compreender se o que você está projetando/construindo faz sentido para o seu usuário final. </p>
+    <p>Existem diversos tipos de teste mas, obrigatoriamente, todos envolvem observar pessoas reais interagindo com seu produto com a intenção de entender a eficiência dele em um contexto de uso. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";> Por que realizar? </h2>
+    <p>Às vezes o problema pode não estar óbvio para você, principalmente porque você participou da concepção do projeto e entende completamente como seu site deveria funcionar. Ou mesmo porque você não é o seu público-alvo, portanto, não entende profundamente suas limitações, objetivos e dores. </p>
+    <p>Quem nunca escreveu um texto mais complexo e pediu para um colega ler e contar qual foi seu entendimento? Talvez você não saiba, mas esse já é um tipo de teste de usabilidade. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Regra dos cinco</h2>
+    <p>A impressão que dá é que, quanto mais pessoas chamarmos para o teste de usabilidade, mais informações vamos obter, certo? Errado. Segundo uma análise feita por Jakob Nielsen, guru da usabilidade, <strong>você só precisa fazer o teste com cinco pessoas</strong> para ter uma resposta conclusiva. Depois desse número, as observações começam a se repetir. </p>
+    <p>Steve Krug, em seu livro "Simplificando coisas que parecem complicadas", diz que <strong>um teste com cinco usuários descobrirá 85% dos problemas</strong> de usabilidade. </p>
+    <p>A única exceção é quando você quer testar dois grupos com objetivos distintos, por exemplo, alunos e professores. Nesse caso, é importante que cada um dos grupos tenha cinco representantes. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Com quem testar? </h2>
+    <p>Ao recrutar pessoas para o teste, você deve levar alguns pontos em consideração:</p>
+    <ul>
+    <li>Ela usaria o seu site?</li>
+    <li>Ela é o seu público-alvo?</li>
+    <li>Ela tem o mesmo problema que as pessoas que usam seu site?</li>
+    <li>Ela tem o mesmo nível de domínio e conhecimento que as pessoas que usam seu site?</li>
+    </ul>
+    <p>Se o seu site é pensado para pessoas mais jovens, com familiaridade com a tecnologia, não adianta ser testado por uma pessoa que não se encaixam nesse perfil. Elas apontarão problemas e dificuldades que os seus usuários nunca vão ter. </p>
+    <p>No caso de testes para UX Writing, existem expressões, jargões e termos que só fazem sentido para o seu público. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>4 Tipos de teste de usabilidade:</h2>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Teste Cloze</h2>
+    <figure>
+    <img style='width:100%;' src="https://media.giphy.com/media/SqQtIZBo6q2I0/giphy.gif"/>
+    </figure>
+    <p><strong>O que é</strong>: procedimento criado em 1953 por Wilson L. Taylor para mensurar a leiturabilidade do texto, cuja base está fundamentada na Teoria da informação, na Psicologia da Gestalt. É bastante utilizado por pesquisadores de leitura e de linguagem e envolve áreas como Psicologia, Comunicação, Fonoaudiologia, Linguística e Educação. </p>
+    <p><strong>Como realizar:</strong></p>
+    <ul>
+    <li>Escolha um trecho do texto e, a cada cinco palavras, substitua a 5ª por um espaço em branco proporcional à palavra retirada. </li>
+    <li>Geralmente o teste é feito com a 5ª palavra, sistematicamente, mas você pode aumentar ou diminuir esse número de acordo com o nível de dificuldade que deseja aplicar. </li>
+    <li>Peça para o usuário substituir os espaços em branco por palavras. </li>
+    <li>Calcule a porcentagem de acerto: de 45 a 57% indica que o leitor alcançou compreensão suficiente, mas precisa de auxílio externo. Acima de 57% indica que o leitor teve autonomia na compreensão da leitura (segundo os critérios de classificação propostos por John Bermuth). </li>
+    </ul>
+
+    <h2 style="margin-top:35px; margin-bottom:-3px";> Teste do marca texto </h2>
+    <figure>
+    <img style='width:100%;' src="https://media.giphy.com/media/QJ8x8kQVGczq8/giphy.gif"/>
+    </figure>
+    <p><strong>Como realizar:</strong></p>
+    <ul>
+    <li>Imprima um trecho do seu texto em um papel e entregue ao participante.</li>
+    <li>Separe cores diferentes de marca texto e defina o significado de cada uma delas Ex. verde para compreensão total, amarelo para compreensão parcial e rosa para trechos sem compreensão nenhuma. Ou, verde para trechos que você sentiu confiante sobre o serviço descrito no site e rosa para trechos que se sentiu menos confiante. </li>
+    <li>Identifique padrões e elenca os trechos mais problemáticos. </li>
+    </ul>
+
+    <h2 style="margin-top:35px; margin-bottom:-3px";> Ligando palavra com imagem </h2>
+    <figure>
+    <img style='width:100%;' src="https://media.giphy.com/media/2wh5K5yE3ulp3xgYcG/giphy.gif"/>
+    </figure>
+    <p><strong>Como realizar:</strong></p>
+    <ul>
+    <li>Separe em duas colunas diferentes algumas palavras do seu site e as imagens correspondentes. Ex. em uma coluna estará a imagem de uma lupa e na outra a palavra "Buscar".</li>
+    <li>Mostre para o seu usuário e veja se ele consegue correlacionar a palavra com a imagem correta.</li>
+    <li>Com essas informações, é possível identificar se imagem e textos </li>
+    </ul>
+    
+    <h2 style="margin-top:35px; margin-bottom:-3px";> Entrevista </h2>
+    <figure>
+    <img style='width:100%;' src="https://media.giphy.com/media/MP1kygLQzjCve/giphy.gif"/>
+    </figure>
+    <p><strong>Como realizar:</strong></p>
+    <ul>
+    <li>Mostre o texto para seu usuário</li>
+    <li>Com perguntas, peça pelo seu feedback</li>
+    <li>Importante: use perguntas "abertas" e que não conduzam a resposta do usuário. Ex. ao invés de "O quanto você gostou do texto?", pergunte "Qual sua percepção sobre o texto?"</li>
+    <li>Depois, reúna todas as respostas e tente identificar padrões e os pontos de maior atrito. </li>
+    </ul>
+    
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Explicando em voz alta sem contato visual</h2>
+    <figure>
+    <img style='width:100%;' src="https://media.giphy.com/media/fvYR60mQCKt2x9hV3y/giphy.gif"/>
+    </figure>
+    <p><strong>Como realizar:</strong></p>
+    <ul>
+    <li>Coloque duas pessoas de costas uma para outra, ou uma de olhos fechados. O importante é que elas não mantenham contato visual e, portanto, não gesticulem e utilizem outros elementos que contaminem o teste. </li>
+    <li>Com o site em mãos, uma das pessoas deve explicar para a outra o que está vendo. A outra pessoa não pode ter conhecimento nenhum do site. </li>
+    <li>Observe quais palavras ela usa na explicação, quais palavras ela utiliza da própria página e quais ela omite. Essa é uma ótima forma de entender as expressões mais utilizadas pelo seu público-alvo para se referir a um determinado assunto. </li>
+    </ul>
+
+    <h2 style="margin-top:35px; margin-bottom:-3px";> Qualitativo X Quantitativo</h2>
+    <figure>
+    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/M_todo_quantitativo_OyrZk2bOX.png'/>
+    </figure>
+    <p><strong>Todos os quatro testes de usabilidade sugeridos são qualitativos.</strong> O objetivo deles não é provar algum ponto específico, mas aprender mais do seu produto sob a visão do seu usuário real e obter informações para aperfeiçoá-lo. </p>
+    <p>Testes quantitativos devem ser rigorosos e seguir um protocolo idêntico a todos os participantes. Como métricas quantitativas são números, devem ter pontos de referência e amostra relevante. </p>
+    <p>Nos testes sugeridos, dependendo da situação, você pode adaptar perguntas, levar seu usuário a completar diferentes tarefas e estimular outro aspecto. Sempre respeitando um padrão mínimo para conseguir ter respostas conclusivas. </p> 
+    `
+  }    
 ];
 
 export const getArticles = () => { return articles };
