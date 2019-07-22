@@ -1,15 +1,36 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Ux Writing Mag",
+  "short_name": "ux-writing-mag",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#ea0074",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
-  ],
-  "start_url": ".",
+  ]
+}
+
+{
+  "name": "Ux Writing Mag",
+  "short_name": "ux-writing-mag",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#ea0074",
+  "icons": [{
+    "src": "iconfinder_Newsvine_128x128_10922.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "iconfinder_Newsvine_128x128_10922.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
 }
