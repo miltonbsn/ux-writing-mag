@@ -1,0 +1,14 @@
+{
+  "name": "Ux Writing Mag",
+  "short_name": "ux-writing-mag",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#ea0074",
+  "icons": [{
+    "src": "/images/iconfinder_Newsvine_128x128_10922.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}
