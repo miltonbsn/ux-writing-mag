@@ -1,6 +1,6 @@
 const articles = [
   {
-    "id": 1, 
+    "id": "1", 
     "title": "A importância da Experiência do Usuário",
     "overview": "O que é e como ela afeta a nossa percepção sobre um produto",
     "author": "Lilian Koyama",
@@ -51,7 +51,7 @@ const articles = [
     <p>O designer conta que uma das maiores preocupações da empresa é ser compreendida e funcional para todas essas pessoas "Chineses, turcos, ocidentais, cada um tem uma percepção do que é bonito. Não podemos agradar a todos, mas queremos que todos saibam como usar nosso site".</p>`
   }, 
   {
-    "id": 2, 
+    "id": "2", 
     "title": "A ascensão do conteúdo na tecnologia",
     "overview": "Quem são os UX Writers e como a profissão tem ganhado importância nos últimos anos",
     "author": "Lilian Koyama",
@@ -88,7 +88,7 @@ const articles = [
     `
   },
   {
-    "id": 3, 
+    "id": "3", 
     "title": "Os princípios do UX Writing",
     "overview": "Compilado de dicas e ensinamentos para guiar os seus textos",
     "author": "Lilian Koyama",
@@ -139,7 +139,7 @@ const articles = [
     `
   },
   {
-    "id": 4, 
+    "id": "4", 
     "title": "Conteúdo ou design: o que vem primeiro?",
     "overview": "Quatro profissionais contam como funciona o processo de criação da experiência do usuário nas empresas em que trabalham",
     "author": "Lilian Koyama",
@@ -191,7 +191,7 @@ const articles = [
     `
   },
   {
-    "id": 5, 
+    "id": "5", 
     "title": "Testes de usabilidade para UX Writing",
     "overview": "Metodologias qualitativas para avaliar a performance do seu texto com seu usuário",
     "author": "Lilian Koyama",
@@ -291,14 +291,12 @@ const articles = [
 export const getArticles = () => { return articles };
 
 export const getRelatedPosts = (articleId, category) => {
-  console.log(articleId);
-  console.log(category);
   return articles.filter(article => articleId !== article.id && category === article.category);
 }
 
 export const getArticle = (id) => { 
   return articles.find(article => {
-     return id == article.id;
+     return id === article.id;
     }
   )
 };
