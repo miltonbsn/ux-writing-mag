@@ -1,7 +1,7 @@
 {
   "name": "Ux Writing Mag",
   "short_name": "ux-writing-mag",
-  "start_url": "/",
+  "start_url": "",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
