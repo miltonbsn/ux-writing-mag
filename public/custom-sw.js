@@ -8,7 +8,7 @@ self.addEventListener('activate', event => event.waitUntil(self.clients.claim())
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
 // app-shell
-//workbox.routing.registerRoute("/", new workbox.strategies.NetworkFirst());
+workbox.routing.registerRoute("/", new workbox.strategies.NetworkFirst());
 
 // workbox.routing.registerRoute(
 //   /\.(?:png|gif|jpg|jpeg|svg)$/,
