@@ -1,7 +1,17 @@
+const { compose } = require('react-app-rewired');
 const {rewireWorkboxInject, defaultInjectConfig} = require('react-app-rewire-workbox');
 const path = require('path');
+const sourceDir = process.env.SOURCE || 'src';
 
-module.exports = function override(config, env) {
+module.exports = config => ({
+  ...config,
+  resolve: {
+     ...config.resolve,
+     modules: ['node_modules', sourceDir],
+  },
+});
+
+module.exports  = (config, env) => {
   console.log("Env: ", env);
   if (env === "production") {
     console.log("Production build - Adding Workbox for PWAs");
@@ -15,3 +25,5 @@ module.exports = function override(config, env) {
 
   return config;
 };
+
+;
