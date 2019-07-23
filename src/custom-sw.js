@@ -8,33 +8,33 @@ self.addEventListener('activate', event => event.waitUntil(self.clients.claim())
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
 // app-shell
-workbox.routing.registerRoute("/", new workbox.strategies.NetworkFirst());
+//workbox.routing.registerRoute("/", new workbox.strategies.NetworkFirst());
 
-workbox.routing.registerRoute(
-  /\.(?:png|gif|jpg|jpeg|svg)$/,
-  new workbox.strategies.CacheFirst({
-    cacheName: 'images',
-    plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 60,
-        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
-      }),
-    ],
-  }),
-); 
+// workbox.routing.registerRoute(
+//   /\.(?:png|gif|jpg|jpeg|svg)$/,
+//   new workbox.strategies.CacheFirst({
+//     cacheName: 'images',
+//     plugins: [
+//       new workbox.expiration.Plugin({
+//         maxEntries: 60,
+//         maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+//       }),
+//     ],
+//   }),
+// ); 
 
  // Cache the Google Fonts stylesheets with a stale while revalidate strategy.
- workbox.routing.registerRoute(
-  /^https:\/\/fonts\.googleapis\.com/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'google-fonts-stylesheets',
-  }),
-);
+//  workbox.routing.registerRoute(
+//   /^https:\/\/fonts\.googleapis\.com/,
+//   new workbox.strategies.StaleWhileRevalidate({
+//     cacheName: 'google-fonts-stylesheets',
+//   }),
+// );
 
-workbox.routing.registerRoute(
-  'https://ik.imagekit.io/uxmag/LRM_EXPORT_286222728089699_20190714_002343764_XCUp4b9hv.jpeg',
-  new workbox.strategies.CacheFirst()
-);
+// workbox.routing.registerRoute(
+//   'https://ik.imagekit.io/uxmag/LRM_EXPORT_286222728089699_20190714_002343764_XCUp4b9hv.jpeg',
+//   new workbox.strategies.CacheFirst()
+// );
 
 
 // 'https://ik.imagekit.io/uxmag/Yuval_Keshtcher_J38dCe4Mn.jpeg',
