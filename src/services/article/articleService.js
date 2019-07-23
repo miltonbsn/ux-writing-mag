@@ -132,7 +132,7 @@ const articles = [
     <p>Se você tem curiosidade em saber como as marcas se expressam por meio das suas comunicações, aqui vão alguns exemplos de Guias de Redação:</p>
     <ul>
     <li><strong>Conta Azul:</strong> <a href="https://guiaderedacao.contaazul.design" target="_blank">Manual de Redação da Conta Azul</a></li>
-    <li><strong>Mercado Livre:</strong> <a href="http://ux.mercadolibre.com/brandbook/br/voz.html" target="_blank">Manual da Marca do Mercado Livre</a></li>
+    <li><strong>Mercado Livre:</strong> <a href="https://ux.mercadolibre.com/brandbook/br/voz.html" target="_blank">Manual da Marca do Mercado Livre</a></li>
     <li><strong>MailChimp:</strong> <a href="https://styleguide.mailchimp.com/" target="_blank">Guia de Conteúdo da MailChimp (inglês)</a></li>
     <li><strong>BuzzFeed:</strong> <a href="https://www.buzzfeed.com/emmyf/buzzfeed-style-guide?utm_term=.uc42qM0log#.yfrQ1Za7y2" target="_blank">Guia de Estilo do BuzzFeed (inglês)</a></li>
     <ul>
