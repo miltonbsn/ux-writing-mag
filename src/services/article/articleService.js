@@ -94,7 +94,7 @@ const articles = [
     "author": "Lilian Koyama",
     "category": "DICAS",
     "when": "11 de junho de 2019",
-    "coverImage": "images/article3-banner.png",
+    "coverImage": "/images/article3-banner.png",
     "body": `
     <p>O UX Writer está ganhando cada vez mais prestígio e destaque. Mas afinal de contas, quais são os superpoderes que tornam esse profissional tão necessário?</p>
     <p><strong>Faça o seguinte teste agora:</strong> entre em qualquer software ou aplicativo. Todo o texto que você encontrar ao navegar pelo produto, deve (ou pelo menos deveria) ter sido criado por UX Writer.</p>
