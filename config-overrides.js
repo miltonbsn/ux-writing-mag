@@ -3,6 +3,8 @@ const {rewireWorkboxInject, defaultInjectConfig} = require('react-app-rewire-wor
 const path = require('path');
 const sourceDir = process.env.SOURCE || 'src';
 
+console.log("sourceDir =>", sourceDir);
+
 module.exports = config => ({
   ...config,
   resolve: {
