@@ -29,7 +29,7 @@ function About() {
         <Title>Sobre</Title>
       </Container>
 
-      <img className={classes.image} src={"https://ik.imagekit.io/uxmag/Linda__YIXuI9TAi.jpeg"} alt="Sobre" />
+      <img className={classes.image} src={"/images/about-linda.png"} alt="Sobre" />
 
       <Container maxWidth="sm">
         <p>Foi em 2017 que descobri o UX Writing, assim que o John Maeda publicou seu relatório anual de tendências, apontando a criação de conteúdo como fator essencial para uma boa Experiência do Usuário. Cursando jornalismo e trabalhando na área de tecnologia, logo me encantei pela nova profissão e decidi me aprofundar nos estudos. </p>

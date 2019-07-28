@@ -6,7 +6,7 @@ const articles = [
     "author": "Lilian Koyama",
     "category": "GUIA",
     "when": "5 junho de 2019",
-    "coverImage": "https://ik.imagekit.io/uxmag/ux-mag1_vj2uMeZXS.jpg",
+    "coverImage": "/images/article1-banner.jpg",
     "body": `
     <p>Todos já ouvimos falar que a primeira impressão é a que fica. Se nas relações interpessoais a frase pode gerar discussões, na tecnologia ela é comprovadamente um fato. </p>
     <p>Segundo uma pesquisa do Marketwired de 2014, 90% dos usuários relataram parar de usar um aplicativo ou desinstalá-lo do celular porque tiveram uma primeira experiência ruim. </p>
@@ -16,7 +16,7 @@ const articles = [
     <p>Quando questionado sobre o <a href="https://www.youtube.com/embed/9BdtGjoIN4E" target="_blank"> significado do termo UX </a> (User Experience ou, em português, Experiência do Usuário), ele respondeu que são todas as etapas de contato entre uma pessoa e um produto, sistema ou serviço. Essas etapas podem causar sensações positivas ou negativas no indivíduo. Usando como exemplo um computador da Apple, a experiência do usuário começa desde o momento em que você pesquisa e se informa sobre o produto, faz a compra na loja, quando abre a caixa em sua casa, até a hora em que está usando seu Macbook no dia a dia.</p>
     <p>Don Norman defende em seu livro "O design do dia a dia" que a experiência deve ser centrada no usuário, baseada nas suas necessidades e interesses, e "que dê atenção especial à questão de fazer produtos compreensíveis e facilmente utilizáveis". </p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/LRM_EXPORT_181064190900683_20190711_234108308_RKPNds5E3.jpeg' />
+    <img style='width:100%;' src='/images/article1-mac.jpeg' />
     <figcaption>Apesar de ser uma tarefa simples, você pode precisar de algumas tentativas para conseguir encaixar o cabo USB no seu computador </figcaption>
     </figure>
     <p>Problemas de usabilidade parecem triviais, mas podem significar a diferença entre prazer e frustração, e se estender a operações mais complexas, com vidas humanas em jogo. <p>
@@ -26,26 +26,26 @@ const articles = [
     <p>Não se ofenda com a afirmação, mas é da natureza humana evitar gastar energia à toa. E esse é um fator importante ao pensar experiência do usuário. </p>
     <p>A primeira lei de usabilidade, tanto no ambiente web quanto mobile, segundo Steve Krug, consultor especializado, é "Não me faça pensar". Regra que dá título ao seu livro, considerado um dos mais importantes sobre usabilidade e interação do homem com o computador.</p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/LRM_EXPORT_181668030856251_20190711_235112148_kccyJwVxL.jpeg' />
+    <img style='width:100%;' src='/images/article1-google.jpeg' />
     <figcaption>Página inicial do Google é exemplo de boa usabilidade: sua interface é simples e intuitiva</figcaption>
     </figure>
     <p>Se você vê uma palavra sublinhada em um texto web, por exemplo, automaticamente já sabe que ao clicar, você será direcionado a outra página referente ao assunto. Se ao invés disso, a palavra estiver apenas negritada, talvez você nunca descubra sua funcionalidade.</p>
     <p>Da mesma forma, quando alguém entra no seu site ou aplicativo buscando algo, ele deve encontrar facilmente, sem encontrar obstáculos. Isso significa que, tantos os elementos gráficos quanto o conteúdo de uma página devem ser autoexplicativos, sem necessidade de grandes esforços por parte do usuário.</p>
     <p>Tornar as páginas evidentes por si só não é apenas uma questão de se destacar entre os seus concorrentes. Dependendo da situação, as pessoas não tem escolha e acessam o seu site porque é a sua única opção. </p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/bu_ufsc_zJFiFoS1h.jpg' />
+    <img style='width:100%;' src='/images/article1-buufsc.jpg' />
     <figcaption>Se é a sua primeira vez navegando pelo site do Repositório Institucional da Universidade Federal de Santa Catarina, pode ser um desafio encontrar o trabalho acadêmico que está buscando </figcaption>
     </figure>
     <h2 style="margin-top:35px; margin-bottom:-3px";>Estética X Estratégia</h2>
     <p>É importante ressaltar que uma boa experiência do usuário é diferente de apenas um design bonito.</p>
     <p>Para Leandro Lima, UX Designer da empresa Klarna em Estocolmo, na Suécia, a estética faz parte da experiência porque é como a pessoa percebe um produto, mas não deve ser prioridade em um projeto "Coisas atraentes são legais. Mas ter um problema resolvido é melhor ainda. E interfaces que de fato resolvem problemas não precisam ser atraentes ou sequer percebidas".</p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/estetica_X_UX_fOk37C2fK.jpg' />
+    <img style='width:100%;' src='/images/article1-importancia.png' />
     <figcaption>A diferença entre um projeto baseado na experiência do usuário e o outro na estética. Créditos: Steffen Kalve</figcaption>
     </figure>
     <p>Mesmo o conceito do que é bonito pode variar muito. Leandro também já trabalhou na Booking.com que possui 198 escritórios espalhados por 70 países pelo mundo. O site é traduzido para mais de 40 idiomas e, por meio dele, são reservadas cerca de 1,5 milhão de estadias todos os dias. </p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/Leandro_Lima_ZgItHUVfJ.jpeg' />
+    <img style='width:100%;' src='/images/article1-leandrolima.jpeg' />
     <figcaption>Leandro Lima, UX Designer da Klarna,  conta que apostar na diversidade da equipe é a um fator chave para pensar uma usabilidade que atenda diferentes públicos e necessidades</figcaption>    
     </figure>
     <p>O designer conta que uma das maiores preocupações da empresa é ser compreendida e funcional para todas essas pessoas "Chineses, turcos, ocidentais, cada um tem uma percepção do que é bonito. Não podemos agradar a todos, mas queremos que todos saibam como usar nosso site".</p>`
@@ -57,7 +57,7 @@ const articles = [
     "author": "Lilian Koyama",
     "category": "GUIA",
     "when": "11 de junho de 2019",
-    "coverImage": "https://ik.imagekit.io/uxmag/balao-unico-azul-com-uma-corda_53876-92777_BoRxK9SFp.jpg",
+    "coverImage": "/images/article2-banner.jpg",
     "body": `
     <p>Os fundadores do site de hospedagem Airbnb, durante a concepção do projeto, tiveram que lidar com um dilema: não sabiam como passar a segurança para anfitriões abrirem suas casas e, ao mesmo tempo, os hóspedes ficarem tranquilos dormindo na propriedade de um desconhecido.</p>
     <p>A solução? Investir na experiência do usuário do site. Não apenas em uma interface intuitiva e em um esquema de avaliação de anfitriões e hóspedes mas, principalmente, no conteúdo dos textos da página. </p>
@@ -94,7 +94,7 @@ const articles = [
     "author": "Lilian Koyama",
     "category": "DICAS",
     "when": "11 de junho de 2019",
-    "coverImage": "https://ik.imagekit.io/uxmag/LRM_EXPORT_286402555051185_20190714_002643591_Fj-CROk2Q.jpeg",
+    "coverImage": "images/article3-banner.png",
     "body": `
     <p>O UX Writer está ganhando cada vez mais prestígio e destaque. Mas afinal de contas, quais são os superpoderes que tornam esse profissional tão necessário?</p>
     <p><strong>Faça o seguinte teste agora:</strong> entre em qualquer software ou aplicativo. Todo o texto que você encontrar ao navegar pelo produto, deve (ou pelo menos deveria) ter sido criado por UX Writer.</p>
@@ -145,7 +145,7 @@ const articles = [
     "author": "Lilian Koyama",
     "category": "Métricas e processos",
     "when": "11 de junho de 2019",
-    "coverImage": "https://ik.imagekit.io/uxmag/LRM_EXPORT_286222728089699_20190714_002343764_XCUp4b9hv.jpeg",
+    "coverImage": "/images/article4-banner.jpeg",
     "body": `
     <p>O "Lorem Ipsum" já foi uma ferramenta chave para os designers e diagramadores. Basta escolher a quantidade de caracteres ou parágrafos, e o site gera um conteúdo fictício com a extensão desejada. Depois, era necessário adaptar a redação para encaixar nesse espaço.</p>
     <p>Como o texto e o visual eram criados separadamente, era comum as brigas entre profissionais: o designer queria priorizar a estética e, o redator, o conteúdo.</p>
@@ -197,7 +197,7 @@ const articles = [
     "author": "Lilian Koyama",
     "category": "Métricas e processos",
     "when": "11 de junho de 2019",
-    "coverImage": "https://ik.imagekit.io/uxmag/588c32fb-2106-4447-827c-6c4523a61a09_lYeEFni3s.jpeg",
+    "coverImage": "/images/article5-banner.jpeg",
     "body": `
     <p>Os testes de usabilidade servem para compreender se o que você está projetando/construindo faz sentido para o seu usuário final. </p>
     <p>Existem diversos tipos de teste mas, obrigatoriamente, todos envolvem observar pessoas reais interagindo com seu produto com a intenção de entender a eficiência dele em um contexto de uso. </p>
