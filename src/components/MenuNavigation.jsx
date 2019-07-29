@@ -26,14 +26,17 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(1),
   },
   title: {
     flexGrow: 1,
     fontWeight: 700
   },
+  logoIcon: {
+    width: 50
+  },
   search: {
-    position: 'relative',
+    position: 'šrelative',
     borderRadius: theme.shape.borderRadius,
     backgroundColor: fade(theme.palette.common.white, 0.15),
     '&:hover': {
@@ -154,8 +157,10 @@ function MenuNavigation({ history, ...props }) {
               <MenuIcon />
             </IconButton>
 
-            <Typography className={classes.title} variant="h6" noWrap onClick={() => goTo("/")}>U:W Mag</Typography>
+            <img className={classes.logoIcon} src={"/uw192.png"} onClick={() => goTo("/")} alt="logo" />
 
+            <Typography className={classes.title} variant="h6" noWrap onClick={() => goTo("/")}>Mag</Typography> 
+{/* 
             <div className={classes.search}>
               <div className={classes.searchIcon}>
                 <SearchIcon />
@@ -168,7 +173,7 @@ function MenuNavigation({ history, ...props }) {
                 }}
                 inputProps={{ 'aria-label': 'Search' }}
               />
-            </div>
+            </div> */}
           </Toolbar>
         </AppBar>
       </HideOnScroll>

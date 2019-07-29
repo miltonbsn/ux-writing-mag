@@ -17,6 +17,7 @@
     "workbox-webpack-plugin": "^4.3.1"
   },
   "scripts": {
+    "up": "react-app-rewired start",
     "start": "node server.js",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom"

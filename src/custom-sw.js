@@ -10,6 +10,8 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
 // app-shell
 workbox.routing.registerRoute("/", workbox.strategies.networkFirst());
+workbox.routing.registerRoute("/about", workbox.strategies.networkFirst());
+workbox.routing.registerRoute("/post/", workbox.strategies.networkFirst());
 
 workbox.routing.registerRoute(
   /^https:\/\/fonts\.googleapis\.com/,

@@ -1,11 +1,11 @@
 {
   "name": "Ux Writing Mag",
-  "short_name": "ux-writing-mag",
+  "short_name": "U:W Mag",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#ea0074",
+  "theme_color": "#4400ff",
   "icons": [
     {
       "src": "favicon.ico",
