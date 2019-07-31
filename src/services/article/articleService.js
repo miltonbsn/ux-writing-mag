@@ -53,38 +53,66 @@ const articles = [
   {
     "id": "2", 
     "title": "A ascensão do conteúdo na tecnologia",
-    "overview": "Quem são os UX Writers e como a profissão tem ganhado importância nos últimos anos",
+    "overview": "Como as mudanças tecnológicas transformaram a produção e o profissional do conteúdo",
     "author": "Lilian Koyama",
     "category": "GUIA",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article2-banner.jpg",
     "body": `
-    <p>Os fundadores do site de hospedagem Airbnb, durante a concepção do projeto, tiveram que lidar com um dilema: não sabiam como passar a segurança para anfitriões abrirem suas casas e, ao mesmo tempo, os hóspedes ficarem tranquilos dormindo na propriedade de um desconhecido.</p>
-    <p>A solução? Investir na experiência do usuário do site. Não apenas em uma interface intuitiva e em um esquema de avaliação de anfitriões e hóspedes mas, principalmente, no conteúdo dos textos da página. </p>
+    <p>Em 1988, a internet chegava pela primeira vez no Brasil, no Laboratório Nacional de Computação Científica (LNCC), no Rio de Janeiro, por meio de uma conexão estabelecida com a Universidade de Maryland, nos Estados Unidos.</p>
+    <p>Pouco a pouco outras universidades foram ligando-se à Bitnet, mas foi só em 1994 que o Governo Brasileiro anunciou, por meio do Ministério de Ciência e Tecnologia e do Ministério das Comunicações, a criação da estrutura necessária para a exploração comercial da Internet. </p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/tia8378820869818833850_2ntzJWwAZ.png'/>
-    <figcaption>Interface e discursos da empresa Airbnb têm o propósito de "fazer você se sentir em casa em qualquer lugar" </figcaption>    
+    <img style='width:100%;' src='/images/comunicado.png' />
+    <figcaption>Internet comercial começou no Brasil, em 1994, em formato experimental com 5 mil usuários </figcaption>
     </figure>
-    <p>Na imagem acima, da página do Airbnb, a caixa de busca é representada pela lupa ao lado do texto em cinza claro Experimente "Bali", frase simples e gentil que indica a função do campo e sugere uma próxima ação. Muitos botões poluem o visual e confundem o usuário. Por isso,  para evitar distrações, as opções de filtro só aparecem quando você interage com o campo. </p>
-    <p>A construção das frases pode transformar completamente a maneira como o usuário experimenta um site: pode tanto guiá-lo às ações corretas e ter entendimento da navegação, como pode causar confusão e frustração.</p>
+    <p>A exibição da novela "Explode Coração" da Globo, no fim de 1995, é apontada como uma das maiores responsáveis por popularizar a internet no Brasil. Nela, um casal inicia uma relação amorosa virtual. </p>
+    <p>A trama surpreendeu os brasileiros mostrando duas pessoas trocando mensagens à distância, pelo computador. </p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/72c9888b673ec174a39a3551ecdfc7c0_uQjTcZQkD.jpeg'/>
-    <figcaption>Mensagem de erro do Windows: você consegue entender qual foi o erro do sistema e qual deve ser sua próxima ação? </figcaption>    
+    <img style='width:100%;' src='/images/article2-darainternet.jpg' />
+    <figcaption>Dara, interpretada por Tereza Seiblitz, usando a internet para conversar com Julio. Fonte: Divulgação/ TV Globo </figcaption>
     </figure>
-    <p>Assim como em um texto para jornal, um título de uma revista ou uma chamada de um anúncio em um outdoor, as palavras precisam ter uma função e um razão para ocuparem aquele espaço. No caso dos textos de UX Writing, as palavras devem instruir o usuário a engajar e ter o entendimento do produto.</p>
-    <h2 style="margin-top:35px; margin-bottom:-3px;">A valorização do conteúdo e surgimento dos UX Writers</h2>
-    <p>Em seu famoso relatório de tendências de Design e Tecnologia, John Maeda - considerado uma referência na área - faz uma previsão anual com bases em seus estudos e entrevistas com as principais empresas de tecnologia do mundo. Em 2017, o título de um dos artigos, traduzido para o português, é "Esqueça a programação: escrever é a nova "habilidade de unicórnio" dos designers". </p>
-    <p>"Habilidade de unicórnio" é uma referência a um termo usado como piada entre designers, já que muitos empregadores têm uma lista infinita de requisitos para uma vaga de emprego que nem sempre são características de um designer, como a programação. </p>
-    <p>Hoje, dois anos depois da previsão, empresas de tecnologia como Google, Apple, Samsung, Oracle, Facebook, todas já possuem times estruturados com UX Writers. </p>
-    <p>No Brasil o impacto da nova profissão ainda é pequeno - são poucos os profissionais de UX Writing e pouco conteúdo de apoio para quem deseja aprender. A UX Designer Cloé de Haro acredita que, assim como outras tendências já ditadas pelas grandes empresas do Vale do Silício, maior polo de tecnologia e inovação do mundo, essa irá chegar ao nosso país e ganhar um espaço cada vez maior. Segundo Cloé, os profissionais de conteúdo e redatores, que tiverem o interesse em crescer na área, terão muitas oportunidades nos próximos anos, ou mesmo meses. </p>
-    <p>Com um mercado saturado de produtos, novos serviços e páginas online, cada vez mais as empresas procuram um diferencial para criar empatia e afinidade com um usuário. Assim como o design de um produto, o conteúdo ajuda a criar uma consistência na marca, direcionar um usuário a uma próxima ação e ajudar no entendimento do seu uso. Nem sempre o design sozinho é auto-explicativo, e existem pontos que uma imagem pode ser muito mais ilustrativa e didática do que um conteúdo extenso. Combinar visual com conteúdo acaba tornando a experiência do usuário mais completa e holística. </p>
-    <h2 style="margin-top:35px; margin-bottom:-3px;">O outro lado do mercado de conteúdo</h2>
-    <p>A nova profissão tem atraído a atenção de vários profissionais, uma vez que o mercado de conteudistas e redatores está cada vez mais saturado e desvalorizado. </p>
-    <p>Segundo relatório sobre economia digital divulgado pela Conferência das Nações Unidas sobre Comércio e Desenvolvimento (UNCTAD, na sigla em inglês) o Brasil é o quarto país no ranking mundial de usuários de internet, com 120 milhões de pessoas conectadas. Nesse contexto, surge o Marketing Digital, produzindo informações e conteúdos para esses internautas. </p>
-    <p>Ao mesmo tempo, o jornalismo sente o impacto do crescimento da internet. Uma pesquisa da Bureau of Labor Statistics dos Estados Unidos mostra que entre 1990 e 2016, a indústria de jornal impresso encolheu quase 60%, reduzindo de 458.000 empregos para 183.000. </p>
-    <p>Em um ciclo de causa e consequência, os jornalistas acabam migrando para uma área já saturada de profissionais do Marketing Digital. </p>
-    <h2 style="margin-top:35px; margin-bottom:-3px";>Conclusão</h2>
-    <p>Se por um lado, o conteúdo é visto como uma mercadoria barata, por outro, é visto como um ponto estratégico e essencial para o desenvolvimento de um projeto, serviço ou produto. A profissão de UX Writer é uma maneira do profissional de conteúdo, redatores e jornalistas, aplicar suas habilidades de escrita, comunicação, pesquisa e entrevista. Mesmo que permaneçam na área do jornalismo, ter conhecimento do conceito de UX Writing pode beneficiá-los a criar produtos jornalísticos mais pensados na experiência do usuário, no caso, os leitores. </p>
+    <p>Naquela época, Bruno Rodrigues, consultor e especialista em Gestão de Conteúdo, dividia seu tempo entre o trabalho com assessoria de imprensa e como redator em uma agência de publicidade. A chegada da novidade encantou, mesmo assim "não acreditava que havia espaço para o profissional de comunicação na internet", lembra ele. </p>
+    <p>Com a popularização da internet, empresas começaram a explorar o potencial do meio, e novas demandas passaram a surgir. </p>
+    <p>Disposto a preencher uma lacuna no mercado e já trabalhando com conteúdo, Bruno foi convidado a integrar o projeto de criação do website da Petrobrás, escrevendo os textos da página.</p>
+    <figure>
+    <img style='width:100%;' src='/images/article2-brunorodrigues.jpg' />
+    <figcaption> Bruno Rodrigues é especialista em UX Writing, Webwriting e Arquitetura da Informação</figcaption>
+    </figure>
+    <p>O que era para ser um trabalho temporário, acabou se consolidando como uma nova área da empresa e Bruno permaneceu como Coordenador de Comunicação do site da Petrobrás por uma década, liderando uma equipe de dez produtores de conteúdo. </p>
+    <p>Lançou em 2000 o primeiro livro em português sobre conteúdo para websites (Webwriting) e o terceiro no mundo sobre o assunto, reunindo seu aprendizado. </p>
+    <figure>
+    <img style='width:100%;' src='/images/article2-books.png' />
+    <figcaption> Livros da série Webwriting, escritos pelo especialista Bruno Rodrigues. Fonte: http://bruno-rodrigues.blog.br/ </figcaption>
+    </figure>
+    <h2 style="margin-top:35px; margin-bottom:-3px;">Consolidação do conteúdo online </h2>
+    <p>Os anos 2000 foram marcados pela criação de redes sociais como Twitter, LinkedIn, Facebook, Youtube e Instagram. Novos canais representavam novos desafios e oportunidades para as empresas, que passaram a investir cada vez mais na geração de conteúdo online e presença digital como forma de atrair e engajar consumidores.</p>
+    <p>Hoje, a internet e a produção de conteúdo digital, Marketing de Conteúdo, estão consolidados. Segundo dados do Hootsuite de 2019, no último ano a população mundial cresceu em 1,1% , enquanto os usuários de internet cresceram em 9,1%. Foram 367 milhões a mais de pessoas conectadas. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px;">Experiência do usuário </h2>
+    <p>Paralelo ao crescimento da internet e da tecnologia, surge nos anos 90 a Experiência do Usuário, com objetivo de criar produtos digitais cada vez mais claros e fáceis de navegar. </p>
+    <p>Assim como a tecnologia nas últimas décadas trouxe inúmeros lançamentos -como o computador portátil, smartphone, streaming - que moldaram a nossa forma de consumir e se comunicar, a Experiência do Usuário também está em constante evolução. </p>
+    <p>Todo ano, John Maeda publica seu famoso relatório de tendências em Design e Tecnologia, apontando previsões com base em seus estudos e entrevistas com as principais empresas de tecnologia do mundo. </p>
+    <p>O título de um dos artigos do relatório de 2017, traduzido para o português, é <strong>"Esqueça a programação: escrever é a nova "habilidade de unicórnio" dos designers"</strong>. </p>
+    <figure>
+    <img style='width:100%;' src='/images/article2-vaga.jpeg' />
+    <figcaption>Habilidade de unicórnio faz alusão às competências que nem sempre são realistas com a profissão. Crédito: Twitter
+    </figcaption>
+    </figure>
+    <h2 style="margin-top:35px; margin-bottom:-3px;">John Maeda acertou? </h2>
+    <p>A produção de conteúdo sempre existiu na tecnologia, mas sendo vista como diferencial estratégico em projetos, era uma novidade.  A área ganhou o nome de UX Writing ou Escrita para Experiência do Usuário. </p>
+    <p>Dois anos depois da previsão, em 2019, as maiores empresas de tecnologia do mundo, como Google, Apple, Samsung, Oracle, Facebook, todas já possuem times estruturados com UX Writers. </p>
+    <p>Aqui no Brasil, os principais eventos de tecnologia e usabilidade contam com o tema na programação, como o Interaction Latin America, o The Developers Conference e o UXConf BR. </p>
+    <p>No mercado de trabalho no Brasil, o impacto da nova profissão ainda é pequeno - são poucos os profissionais de UX Writing e pouco conteúdo de apoio para quem deseja aprender. </p>
+    <p>Cloé de Haro, UX Designer na Softplan, acredita que, assim como outras tendências já ditadas pelas grandes empresas do Vale do Silício, maior polo de tecnologia e inovação do mundo, essa irá chegar ao nosso país e ganhar um espaço cada vez maior. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px;">Novas possibilidades para os jornalistas </h2>
+    <p>Com o mercado cada vez mais enxuto e saturado, muitos jornalistas estão usando sua habilidade de escrita e comunicação para migrar de área, seja para o Webwriting, Marketing de Conteúdo ou UX Writing. </p>
+    <p>Formada e com uma experiência de 5 anos como jornalista, Ludmila Rocha iniciou uma pós-graduação em Redes Sociais com a expectativa de mudar de carreira para o Marketing Digital. Acabou se candidatando para uma vaga que, na época, ela não fazia ideia do que era: UX Writer na Conta Azul, empresa referência em inovação. </p>
+    <p>Hoje, um ano e quatro meses depois, Ludmila já fez cursos se especializando, palestrou em eventos, participou de um podcast sobre o assunto e advoga pela importância do conteúdo pensado para experiência do usuário. </p>
+    <p>Segundo ela, a mudança de profissão trouxe inúmeras vantagens: salário mais alto, valorização profissional e a possibilidade de trabalhar em uma empresa com ações pensadas na evolução da sua carreira, com treinamentos e um ambiente de trabalho saudável. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px;">A chave do pioneirismo é a "cara de pau" </h2>
+    <p>De jornalista a Especialista em Gestão de Conteúdo Online, Bruno Rodrigues migrou algumas vezes de profissão. Escreveu o primeiro livro em português de Webwriting do mundo e, aos 52 anos, está para lançar o primeiro sobre UX Writing, resultado da sua tese de mestrado pela Universidade Federal do Rio de Janeiro. </p>
+    <p>Segundo Bruno, as transições ocorreram de forma natural, combinando estudo e pesquisa com muita "cara de pau" de embarcar em uma nova área, muitas vezes, de forma experimental, aprendendo na prática como fazer. </p>
+    <p>Trabalhando com conteúdo em áreas tão diferentes, ele enfatiza que, apesar de todas trabalharem com palavras, cada uma possui princípios diferentes: "No webwriting, o texto é o rei e é uma competência da comunicação social. Já o UX Writing é o coadjuvante e faz parte da comunicação visual". </p>
+
     `
   },
   {

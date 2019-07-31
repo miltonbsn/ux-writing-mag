@@ -13,6 +13,12 @@ workbox.routing.registerRoute("/", workbox.strategies.networkFirst());
 workbox.routing.registerRoute("/about", workbox.strategies.networkFirst());
 workbox.routing.registerRoute("/post/", workbox.strategies.networkFirst());
 
+workbox.routing.registerNavigationRoute(
+  // Assuming '/single-page-app.html' has been precached,
+  // look up its corresponding cache key.
+  workbox.precaching.getCacheKeyForURL('/index.html')
+);
+
 workbox.routing.registerRoute(
   /^https:\/\/fonts\.googleapis\.com/,
   new workbox.strategies.StaleWhileRevalidate({
@@ -26,7 +32,7 @@ workbox.routing.registerRoute(
 ); 
 
 workbox.routing.registerRoute(
-  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  /\.(?:png|gif|jpg|jpeg|svg|ico)$/,
   new workbox.strategies.CacheFirst({
     cacheName: 'images',
     plugins: [
