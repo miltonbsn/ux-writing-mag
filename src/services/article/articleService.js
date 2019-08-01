@@ -5,6 +5,7 @@ const articles = [
     "overview": "O que é e como ela afeta a nossa percepção sobre um produto",
     "author": "Lilian Koyama",
     "category": "GUIA",
+    "categoryDescription": "GUIA",
     "when": "5 junho de 2019",
     "coverImage": "/images/article1-banner.jpg",
     "body": `
@@ -56,13 +57,14 @@ const articles = [
     "overview": "Como as mudanças tecnológicas transformaram a produção e o profissional do conteúdo",
     "author": "Lilian Koyama",
     "category": "GUIA",
+    "categoryDescription": "GUIA",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article2-banner.jpg",
     "body": `
     <p>Em 1988, a internet chegava pela primeira vez no Brasil, no Laboratório Nacional de Computação Científica (LNCC), no Rio de Janeiro, por meio de uma conexão estabelecida com a Universidade de Maryland, nos Estados Unidos.</p>
     <p>Pouco a pouco outras universidades foram ligando-se à Bitnet, mas foi só em 1994 que o Governo Brasileiro anunciou, por meio do Ministério de Ciência e Tecnologia e do Ministério das Comunicações, a criação da estrutura necessária para a exploração comercial da Internet. </p>
     <figure>
-    <img style='width:100%;' src='/images/comunicado.png' />
+    <img style='width:100%;' src='/images/article2-comunicado.png' />
     <figcaption>Internet comercial começou no Brasil, em 1994, em formato experimental com 5 mil usuários </figcaption>
     </figure>
     <p>A exibição da novela "Explode Coração" da Globo, no fim de 1995, é apontada como uma das maiores responsáveis por popularizar a internet no Brasil. Nela, um casal inicia uma relação amorosa virtual. </p>
@@ -120,6 +122,7 @@ const articles = [
     "overview": "Compilado de dicas e ensinamentos para guiar os seus textos",
     "author": "Lilian Koyama",
     "category": "DICAS",
+    "categoryDescription": "DICAS",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article3-banner.png",
     "body": `
@@ -165,7 +168,8 @@ const articles = [
     "title": "Conteúdo ou design: o que vem primeiro?",
     "overview": "Quatro profissionais contam como funciona o processo de criação da experiência do usuário nas empresas em que trabalham",
     "author": "Lilian Koyama",
-    "category": "Métricas e processos",
+    "category": "METRICAS",
+    "categoryDescription": "Métricas e processos",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article4-banner.jpeg",
     "body": `
@@ -217,7 +221,8 @@ const articles = [
     "title": "Testes de usabilidade para UX Writing",
     "overview": "Metodologias qualitativas para avaliar a performance do seu texto com seu usuário",
     "author": "Lilian Koyama",
-    "category": "Métricas e processos",
+    "category": "METRICAS",
+    "categoryDescription": "Métricas e processos",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article5-banner.jpeg",
     "body": `
@@ -314,6 +319,11 @@ export const getArticles = () => { return articles };
 
 export const getRelatedPosts = (articleId, category) => {
   return articles.filter(article => articleId !== article.id && category === article.category);
+}
+
+export const getArticlesByCategory = (category) => {
+  if(category === "ALL") return articles;
+  return articles.filter(article => article.category.includes(category));
 }
 
 export const getArticle = (id) => { 

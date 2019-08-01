@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -63,6 +63,21 @@ const useStyles = makeStyles(theme => ({
   list: {
     width: 250,
     textAlign: "left"
+  }, 
+  subCategory: {
+    paddingTop: 0,
+    paddingBottom: 0,
+    fontSize: 5,
+    fontWeight: 200,
+    marginLeft: 55,
+    width: 150,
+  },
+  subCategoryText: {
+    fontSize: 12,
+    fontWeight: 400
+  },
+  zeroSpace: {
+    paddingBottom: 0
   }
 }));
 
@@ -104,43 +119,46 @@ function MenuNavigation({ history, ...props }) {
       title: "Home",
       icon: <HomeIcon />,
       path: "/",
-      id: 1
+      id: 1,
+      subs: []
     },
-    // {
-    //   title: "Categorias",
-    //   icon: <CategoryIcon/>,
-    //   path: "/categories",
-    //   id: 2
-    // },
-    // {
-    //   title: "GUIA",
-    //   icon: "",
-    //   path: "/categories",
-    //   id: 3
-    // },
-    // {
-    //   title: "DICAS",
-    //   icon: "",
-    //   path: "/categories",
-    //   id: 4
-    // },
-    // {
-    //   title: "MÉTRICAS",
-    //   icon: "",
-    //   path: "/categories",
-    //   id: 5
-    // },
+    {
+      title: "Categorias",
+      icon: <CategoryIcon/>,
+      path: "/categories/ALL",
+      id: 2,
+      subs: [{
+        title: "- GUIA",
+        icon: <CategoryIcon/>,
+        path: "/categories/GUIA",
+        id: 3
+      },
+      {
+        title: "- DICAS",
+        icon: <CategoryIcon/>,
+        path: "/categories/DICAS",
+        id: 4
+      },
+      {
+        title: "- MÉTRICAS",
+        icon: <CategoryIcon/>,
+        path: "/categories/METRICAS",
+        id: 5
+      }]
+    },
     {
       title: "Sobre",
       icon: <AboutIcon />,
       path: "/about",
-      id: 6
+      id: 3,
+      subs: []
     },
     {
       title: "Compartilhe",
       icon: <ContactIcon />,
       path: "/share",
-      id: 7
+      id: 4,
+      subs: []
     }
   ]
 
@@ -154,10 +172,22 @@ function MenuNavigation({ history, ...props }) {
       <Divider />
       <List>
         {pages.map(page => (
-          <ListItem button key={page.id} onClick={() => goTo(page.path)}>
-            <ListItemIcon>{page.icon}</ListItemIcon>
-            <ListItemText primary={page.title} />
-          </ListItem>
+
+          <Fragment key={page.id}>
+            
+            <ListItem button key={page.id} className={page.title === "Categorias"? classes.zeroSpace:""} onClick={() => goTo(page.path)}>
+              <ListItemIcon>{page.icon}</ListItemIcon>
+              <ListItemText primary={page.title} />
+            </ListItem>
+
+            {page.subs.map(sub => (
+              <ListItem button key={sub.id} className={classes.subCategory} onClick={() => goTo(sub.path)}>
+                {/* <ListItemIcon>{sub.icon}</ListItemIcon> */}
+                <ListItemText disableTypography={true} secondary={sub.title} inset={false} className={classes.subCategoryText} />
+              </ListItem>
+            ))} 
+
+          </Fragment>
         ))}
       </List>
       <Divider />

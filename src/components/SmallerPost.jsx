@@ -58,7 +58,7 @@ const SmallerPost = ({post}) => {
       </Card>
 
       <Typography className={classes.category} variant="overline" component="h3">
-        {post.category}
+        {post.categoryDescription}
       </Typography>
       <Link className={classes.link} to={`/post/${post.id}`}>
         <Typography className={classes.title} variant="body1" gutterBottom component="h2">

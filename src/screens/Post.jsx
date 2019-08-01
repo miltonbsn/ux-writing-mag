@@ -44,20 +44,6 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-// const relatedPosts = [
-//   {
-//     id: 1,
-//     title: "Lorem ipsum dolor sit amet",
-//     category: "Entrevistas",
-//     overview: "ea molestias quasi exercitationem repellat qui ipsa sit aut"
-//   },{
-//     id: 2,
-//     title: "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-//     category: "Dicas",
-//     overview: "ea molestias quasi exercitationem repellat qui ipsa sit aut"
-//   }
-// ];
-
 const Post = ({match}) => {
 
   const classes = useStyles();
@@ -71,7 +57,7 @@ const Post = ({match}) => {
     <div className={classes.root}>
       <Container maxWidth="sm">
         <Typography className={classes.category} variant="overline" component="h4">
-          {article.category}
+          {article.categoryDescription}
         </Typography>
 
         <Typography className={classes.title} variant="h4" gutterBottom component="h1">

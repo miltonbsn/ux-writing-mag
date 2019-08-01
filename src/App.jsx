@@ -9,6 +9,7 @@ import grey from "@material-ui/core/colors/grey";
 import MenuNavigation from "./components/MenuNavigation";
 import Footer from "./components/Footer";
 import Share from './screens/Share';
+import Category from './screens/Category';
 
 const theme = createMuiTheme({
   palette: {
@@ -40,7 +41,7 @@ function App() {
           <Route path="/articles" component={Home}></Route>
           <Route path="/share" component={Share}></Route>
           <Route path="/post/:id" component={Post}></Route>
-          <Route path="/topics" component={Home}></Route>
+          <Route path="/categories/:category" component={Category}></Route>
           <Footer />
         </Fragment>
       </ThemeProvider>
