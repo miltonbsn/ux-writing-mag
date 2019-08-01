@@ -112,41 +112,43 @@ const articles = [
     <p>De jornalista a Especialista em Gestão de Conteúdo Online, Bruno Rodrigues migrou algumas vezes de profissão. Escreveu o primeiro livro em português de Webwriting do mundo e, aos 52 anos, está para lançar o primeiro sobre UX Writing, resultado da sua tese de mestrado pela Universidade Federal do Rio de Janeiro. </p>
     <p>Segundo Bruno, as transições ocorreram de forma natural, combinando estudo e pesquisa com muita "cara de pau" de embarcar em uma nova área, muitas vezes, de forma experimental, aprendendo na prática como fazer. </p>
     <p>Trabalhando com conteúdo em áreas tão diferentes, ele enfatiza que, apesar de todas trabalharem com palavras, cada uma possui princípios diferentes: "No webwriting, o texto é o rei e é uma competência da comunicação social. Já o UX Writing é o coadjuvante e faz parte da comunicação visual". </p>
-
     `
   },
   {
     "id": "3", 
-    "title": "Os princípios do UX Writing",
+    "title": "Os 3 princípios do UX Writing",
     "overview": "Compilado de dicas e ensinamentos para guiar os seus textos",
     "author": "Lilian Koyama",
     "category": "DICAS",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article3-banner.png",
     "body": `
-    <p>O UX Writer está ganhando cada vez mais prestígio e destaque. Mas afinal de contas, quais são os superpoderes que tornam esse profissional tão necessário?</p>
-    <p><strong>Faça o seguinte teste agora:</strong> entre em qualquer software ou aplicativo. Todo o texto que você encontrar ao navegar pelo produto, deve (ou pelo menos deveria) ter sido criado por UX Writer.</p>
-    <p>Para o usuário, é crucial entender de forma rápida qual é a ação esperada dele.</p>
-    <p>Um exemplo de boa usabilidade é o aplicativo de entrega de comida IFood. Mesmo quem tem pouca familiaridade com tecnologia consegue navegar entre as opções e fazer o seu pedido.</p>
-    <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/LRM_EXPORT_186266336441308_20190712_012021760_Z4TcOgsVC.jpeg'/>
-    <figcaption>Perfil de cada restaurante tem todas as informações necessárias de forma clara e concisa</figcaption>    
-    </figure>
-    <h2 style="margin-top:35px; margin-bottom:-3px";>Três princípios básicos</h2>
+    <h2 style="margin-top:35px; margin-bottom:-3px;">Três princípios básicos</h2>
     <p>Durante uma palestra para o maior evento de desenvolvimento de Software do Brasil, o <em>The Developers Conference</em>, realizada em abril de 2019 em Florianópolis, Alice Saraiva, uma das primeiras UX Writers do país, elencou 3 princípios básicos para todo texto de UX Writing: <strong>clareza, concisão e consistência.</strong> </p>
-    <ul>
-    <li><strong>Claro:</strong> é preciso entender a mensagem, sem possibilidade para múltiplas interpretações;</li>
-    <li><strong>Conciso:</strong> quanto mais rápido de ser lido e 'escaneado' com os olhos, melhor;</li>
-    <li><strong>Consistência:</strong> ter um padrão de linguagem ajuda a definir o tom da marca.</li>
-    </ul>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/erro-msn-4_MmC1PEwET.jpg'/>
+    <img style='width:100%;' src='/images/article3-errormessage.jpg'/>
     <figcaption>Mensagens de erro longas e confusas acabam frustrando o usuário</figcaption>    
     </figure>
     <p>Esses três princípios devem trabalhar sempre juntos, o que não significa que eles nunca vão conflitar entre si. O trabalho do UX Writer é entender qual a melhor forma de equilibrá-los. Para isso, primeiro, o profissional deve saber qual o tom e voz da marca que ele representa. Ele deve considerar se a marca quer transmitir conhecimento e inovação, proximidade e alegria ou seriedade e respeitabilidade.</p>    
-    <p><strong>Todas as comunicações precisam ser consistentes e ter a mesma linguagem.</strong> Essa é também, segundo o UX Writer da empresa Shakuro, Moses Kim, uma forma da empresa ter controle sobre como ela se relaciona com seus consumidores.</p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Clareza</h2>
+    <p>Segundo Bruno Rodrigues, autor do primeiro livro sobre UX Writing do Brasil, lançado em julho de 2019, um texto para produto é bem realizado quando ele se torna imperceptível, "as pessoas nem devem notar que estão lendo". O conteúdo não pode abrir possibilidade para múltiplas interpretações e usuário deve entender rapidamente o que está acontecendo e qual a próxima ação esperada dele. </p>
+    <p>A ação pode ser complexa ou muito técnica, mas o UX Writer é responsável por traduzi-la da forma mais simples para o usuário. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Concisão</h2>
+    <p>Quanto mais rápido de ser lido e 'escaneado' com os olhos, melhor! </p>
+    <p>Um exercício feito pela equipe de experiência de usuário da empresa Booking.com, segundo Leandro Lima, ex-funcionário, é pegar um texto e remover todos os adjetivos. E ir enxugando aos poucos, seguindo diferentes critérios. Nesse processo, além de você reduzir ao máximo o conteúdo, também acaba descobrindo quais palavras são a essência que definem a funcionalidade. </p>
+    <h2 style="margin-top:35px; margin-bottom:-3px";>Consistência</h2>
+    <p>Ter um padrão de linguagem ajuda a definir o tom da marca. </p>
+    <p>Para isso, primeiro, o profissional deve saber qual o tom e voz da marca que ele representa. Ele deve considerar se a marca quer transmitir conhecimento e inovação, proximidade e alegria ou seriedade e respeitabilidade. </p>
+    <p><strong>Todas as comunicações precisam ser consistentes e ter a mesma linguagem.</strong> Essa é também, segundo o UX Writer da empresa Shakuro, Moses Kim, uma forma da empresa ter controle sobre como ela se relaciona com seus consumidores.  </p>
+    <p>Se você tem curiosidade em saber como as marcas se expressam por meio das suas comunicações, aqui vão alguns exemplos de Guias de Redação:</p>
+    <ul>
+    <li><strong>Conta Azul:</strong> <a href="https://guiaderedacao.contaazul.design" target="_blank">Manual de Redação da Conta Azul</a></li>
+    <li><strong>Mercado Livre:</strong> <a href="https://ux.mercadolibre.com/brandbook/br/voz.html" target="_blank">Manual da Marca do Mercado Livre</a></li>
+    <li><strong>MailChimp:</strong> <a href="https://styleguide.mailchimp.com/" target="_blank">Guia de Conteúdo da MailChimp (inglês)</a></li>
+    <li><strong>BuzzFeed:</strong> <a href="https://www.buzzfeed.com/emmyf/buzzfeed-style-guide?utm_term=.uc42qM0log#.yfrQ1Za7y2" target="_blank">Guia de Estilo do BuzzFeed (inglês)</a></li>
+    </ul>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/info_jim_oxr6jTu3P.png'/>
+    <img style='width:100%;' src='/images/article3-errorjim.png'/>
     <figcaption>Em tom descontraído, rapidamente entendemos qual foi o erro e as possíveis soluções</figcaption>    
     </figure>    
     <h2 style="margin-top:35px; margin-bottom:-3px";>Como exercitar seu UX Writing</h2>
@@ -156,14 +158,6 @@ const articles = [
     <p><strong>Desafio:</strong> Escreva uma mensagem do aplicativo da companhia aérea notificando sobre o cancelamento e o que é preciso fazer a seguir.</p> 
     <p>Título máximo de 40 caracteres, corpo do texto máximo de 100 caracteres e um botão com máximo de 25 caracteres.</p> 
     <p>No e-mail também seguem dois links: um artigo com dicas de como escrever sobre falhas e cancelamentos; e o grupo no Facebook para postar o desafio e trocar feedbacks.</p>
-    <h2 style="margin-top:35px; margin-bottom:-3px";>Exemplos de Guias de Redação</h2>
-    <p>Se você tem curiosidade em saber como as marcas se expressam por meio das suas comunicações, aqui vão alguns exemplos de Guias de Redação:</p>
-    <ul>
-    <li><strong>Conta Azul:</strong> <a href="https://guiaderedacao.contaazul.design" target="_blank">Manual de Redação da Conta Azul</a></li>
-    <li><strong>Mercado Livre:</strong> <a href="https://ux.mercadolibre.com/brandbook/br/voz.html" target="_blank">Manual da Marca do Mercado Livre</a></li>
-    <li><strong>MailChimp:</strong> <a href="https://styleguide.mailchimp.com/" target="_blank">Guia de Conteúdo da MailChimp (inglês)</a></li>
-    <li><strong>BuzzFeed:</strong> <a href="https://www.buzzfeed.com/emmyf/buzzfeed-style-guide?utm_term=.uc42qM0log#.yfrQ1Za7y2" target="_blank">Guia de Estilo do BuzzFeed (inglês)</a></li>
-    <ul>
     `
   },
   {
@@ -181,24 +175,24 @@ const articles = [
     <p>Veja o que pensam alguns profissionais: </p>
     <h2 style="margin-top:35px; margin-bottom:-3px";>Yuval Keshtcher - Fundador do portal UX Writing Hub</h2>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/Yuval_Keshtcher_J38dCe4Mn.jpeg'/>
+    <img style='width:100%;' src='/images/article4-1.jpeg'/>
     </figure>
     <p>Durante a entrevista, feita por skype no começo deste ano, Yuval estava em Berlim, um dos maiores polos de tecnologia do mundo, se preparando para dar uma palestra sobre o futuro do UX Writing. </p>
     <p>Para o israelense, esse é um assunto polêmico e o fluxo do processo pode variar de empresa para empresa, mas ele defende que o importante é que todos os envolvidos no projeto estejam de acordo com o conceito do produto final. </p> 
     <h2 style="margin-top:35px; margin-bottom:-3px";>Alice Saraiva - Content Strategist & UX Writer na Badaró</h2>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/1_z55lSZpQj0NM7tbqc3v5yw_DYj9TAdfd.jpeg'/>
+    <img style='width:100%;' src='/images/article4-2.jpeg'/>
     </figure>
     <p>Alice Saraiva defende que o ideal é que conteúdo e design sejam criados juntos, com o mesmo nível de importância.</p>
     <p>"Às vezes, é difícil convencer seu líder, designers e desenvolvedores sobre o impacto de um bom conteúdo na experiência do usuário. As pessoas acham que a única coisa que chama a atenção é o design e o texto é um detalhe secundário".</p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/Screen_Shot_2019-07-14_at_01.01.42_LyJDZGNB6.png'/>
+    <img style='width:100%;' src='/images/article4-3.jpeg'/>
     <figcaption>Alice Saraiva durante palestra sobre UX Writing no The Developers Conference de 2019</figcaption>    
     </figure>
     <p>Durante sua carreira, ela conta que precisou insistir muito em participar de todos os processos de pesquisa e concepção, e garante que os resultados provam o poder que o profissional do conteúdo tem na estratégia do produto.</p>
     <h2 style="margin-top:35px; margin-bottom:-3px";>João Menezes - Product Design Coordinator na Conta Azul </h2>  
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/jo_o_W6Lmc8qwa.png'/>  
+    <img style='width:100%;' src='/images/article4-4.jpeg'/>  
     </figure> 
     <p>Em 2017, o Coordenador do Design de Produto da ContaAzul, referência na área de tecnologia de Santa Catarina, João Menezes iniciou um projeto para contribuir com o estabelecimento da competência  de UX Writing na empresa. </p>
     <p>Começou elaborando um <a href="https://guiaderedacao.contaazul.design/" target="_blank"> Guia de Redação</a> para que todos os textos criados pelos designers tivessem um padrão e fossem baseados em algumas regras de usabilidade. </p>
@@ -207,11 +201,11 @@ const articles = [
     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/648688340%3Fsecret_token%3Ds-p9chz&color=%232c404c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     <h2 style="margin-top:35px; margin-bottom:-3px";>Leandro Lima - Senior Product Designer na Klarna</h2>    
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/1_vFhS2Lz6s1ezIHR65lBrdg_NLncXKwcL.jpeg'/>
+    <img style='width:100%;' src='/images/article4-5.jpeg'/>
     </figure> 
     <p>Antes de trabalhar na Klarna, em Estocolmo, Leandro Lima trabalhou na Booking.com, em Amsterdã, na equipe responsável pelo programa de fidelidade “Genius” do site "Quando entrei na equipe, eram 20 mil usuários usando a funcionalidade e quatro pessoas na equipe. Quando saí eram 100 milhões de usuários e quase 70 profissionais". </p>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/tia461396092054709144_9gP3Bdsys.png'/>
+    <img style='width:100%;' src='/images/article4-6.jpeg'/>
     <figcaption>Programa de fidelidade com vantagens para clientes da Booking.com</figcaption>    
     </figure> 
     <p>Destes, 60 eram designers e apenas dois UX Writers. Como havia muita demanda, os dois se dedicavam apenas nos momentos mais estratégicos, como o planejamento, pesquisa com usuário e revisão do conteúdo criado pelos designers.</p> 
@@ -249,7 +243,7 @@ const articles = [
     <h2 style="margin-top:35px; margin-bottom:-3px";>4 Tipos de teste de usabilidade:</h2>
     <h2 style="margin-top:35px; margin-bottom:-3px";>Teste Cloze</h2>
     <figure>
-    <img style='width:100%;' src="https://media.giphy.com/media/SqQtIZBo6q2I0/giphy.gif"/>
+    <img style='width:100%;' src="/images/article5-1.gif"/>
     </figure>
     <p><strong>O que é</strong>: procedimento criado em 1953 por Wilson L. Taylor para mensurar a leiturabilidade do texto, cuja base está fundamentada na Teoria da informação, na Psicologia da Gestalt. É bastante utilizado por pesquisadores de leitura e de linguagem e envolve áreas como Psicologia, Comunicação, Fonoaudiologia, Linguística e Educação. </p>
     <p><strong>Como realizar:</strong></p>
@@ -262,7 +256,7 @@ const articles = [
 
     <h2 style="margin-top:35px; margin-bottom:-3px";> Teste do marca texto </h2>
     <figure>
-    <img style='width:100%;' src="https://media.giphy.com/media/QJ8x8kQVGczq8/giphy.gif"/>
+    <img style='width:100%;' src="/images/article5-2.gif"/>
     </figure>
     <p><strong>Como realizar:</strong></p>
     <ul>
@@ -273,7 +267,7 @@ const articles = [
 
     <h2 style="margin-top:35px; margin-bottom:-3px";> Ligando palavra com imagem </h2>
     <figure>
-    <img style='width:100%;' src="https://media.giphy.com/media/2wh5K5yE3ulp3xgYcG/giphy.gif"/>
+    <img style='width:100%;' src="/images/article5-3.gif"/>
     </figure>
     <p><strong>Como realizar:</strong></p>
     <ul>
@@ -284,7 +278,7 @@ const articles = [
     
     <h2 style="margin-top:35px; margin-bottom:-3px";> Entrevista </h2>
     <figure>
-    <img style='width:100%;' src="https://media.giphy.com/media/MP1kygLQzjCve/giphy.gif"/>
+    <img style='width:100%;' src="/images/article5-4.gif"/>
     </figure>
     <p><strong>Como realizar:</strong></p>
     <ul>
@@ -296,7 +290,7 @@ const articles = [
     
     <h2 style="margin-top:35px; margin-bottom:-3px";>Explicando em voz alta sem contato visual</h2>
     <figure>
-    <img style='width:100%;' src="https://media.giphy.com/media/fvYR60mQCKt2x9hV3y/giphy.gif"/>
+    <img style='width:100%;' src="/images/article5-5.gif"/>
     </figure>
     <p><strong>Como realizar:</strong></p>
     <ul>
@@ -307,7 +301,7 @@ const articles = [
 
     <h2 style="margin-top:35px; margin-bottom:-3px";> Qualitativo X Quantitativo</h2>
     <figure>
-    <img style='width:100%;' src='https://ik.imagekit.io/uxmag/M_todo_quantitativo_OyrZk2bOX.png'/>
+    <img style='width:100%;' src='/images/article5-6.png'/>
     </figure>
     <p><strong>Todos os quatro testes de usabilidade sugeridos são qualitativos.</strong> O objetivo deles não é provar algum ponto específico, mas aprender mais do seu produto sob a visão do seu usuário real e obter informações para aperfeiçoá-lo. </p>
     <p>Testes quantitativos devem ser rigorosos e seguir um protocolo idêntico a todos os participantes. Como métricas quantitativas são números, devem ter pontos de referência e amostra relevante. </p>
