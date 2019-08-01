@@ -12,12 +12,10 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { withRouter } from 'react-router-dom';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
-import InputBase from '@material-ui/core/InputBase';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
 import AboutIcon from '@material-ui/icons/Domain';
-import SearchIcon from '@material-ui/icons/Search';
 import ContactIcon from '@material-ui/icons/Email';
 import CategoryIcon from '@material-ui/icons/Label';
 
@@ -108,23 +106,41 @@ function MenuNavigation({ history, ...props }) {
       path: "/",
       id: 1
     },
-    {
-      title: "Categorias",
-      icon: <CategoryIcon/>,
-      path: "/categories",
-      id: 5
-    },
+    // {
+    //   title: "Categorias",
+    //   icon: <CategoryIcon/>,
+    //   path: "/categories",
+    //   id: 2
+    // },
+    // {
+    //   title: "GUIA",
+    //   icon: "",
+    //   path: "/categories",
+    //   id: 3
+    // },
+    // {
+    //   title: "DICAS",
+    //   icon: "",
+    //   path: "/categories",
+    //   id: 4
+    // },
+    // {
+    //   title: "MÉTRICAS",
+    //   icon: "",
+    //   path: "/categories",
+    //   id: 5
+    // },
     {
       title: "Sobre",
       icon: <AboutIcon />,
       path: "/about",
-      id: 3
+      id: 6
     },
     {
       title: "Compartilhe",
       icon: <ContactIcon />,
       path: "/share",
-      id: 4
+      id: 7
     }
   ]
 
@@ -160,20 +176,7 @@ function MenuNavigation({ history, ...props }) {
             <img className={classes.logoIcon} src={"/uw192.png"} onClick={() => goTo("/")} alt="logo" />
 
             <Typography className={classes.title} variant="h6" noWrap onClick={() => goTo("/")}>Mag</Typography> 
-{/* 
-            <div className={classes.search}>
-              <div className={classes.searchIcon}>
-                <SearchIcon />
-              </div>
-              <InputBase
-                placeholder="Search…"
-                classes={{
-                  root: classes.inputRoot,
-                  input: classes.inputInput,
-                }}
-                inputProps={{ 'aria-label': 'Search' }}
-              />
-            </div> */}
+
           </Toolbar>
         </AppBar>
       </HideOnScroll>
