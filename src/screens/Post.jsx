@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
+import BackIcon from '@material-ui/icons/KeyboardArrowLeft';
 import Title from "../components/Title";
 import SmallerPost from "../components/SmallerPost";
 import { articleService } from '../services/index';
@@ -16,10 +17,19 @@ const useStyles = makeStyles(theme => ({
   title: {
     fontWeight: "bold",
     color: theme.palette.text.primary,
-    marginBottom: 20
+    marginBottom: 20,
+    marginTop: 10
   },
   category: {
     letterSpacing: 3,
+    color: theme.palette.text.primary
+  },
+  back: {
+    display: "flex",
+    alignItems: "center",
+    letterSpacing: 3,
+    fontSize: 10,
+    lineHeight: 1,
     color: theme.palette.text.primary
   },
   image: {
@@ -41,24 +51,37 @@ const useStyles = makeStyles(theme => ({
   },
   uxarticle: {
     marginTop: 35
+  },
+  flex: {
+    display: "flex",
+    justifyContent: "space-between"
   }
 }));
 
-const Post = ({match}) => {
+const Post = ({history, match}) => {
 
   const classes = useStyles();
 
   const article = articleService.getArticle(match.params.id);
-  const relatedPosts = articleService.getRelatedPosts(article.id, article.category);
+  const relatedPosts = articleService.getRelatedPosts(article.id, article.relatedArticles);
+
+  console.log(history)
+
+  const goBack = () => {
+    history.goBack();
+  }
 
   window.scrollTo(0, 0);
 
   return (
     <div className={classes.root}>
       <Container maxWidth="sm">
-        <Typography className={classes.category} variant="overline" component="h4">
-          {article.categoryDescription}
-        </Typography>
+        <div className={classes.flex}>
+          <Typography className={classes.category} variant="overline" component="h4">
+            {article.categoryDescription}
+          </Typography>
+          <Typography className={classes.back} component="p" onClick={() => goBack()}><BackIcon style={{fontSize: 12, marginRight: 5}} /> VOLTAR </Typography>
+        </div>
 
         <Typography className={classes.title} variant="h4" gutterBottom component="h1">
           {article.title}

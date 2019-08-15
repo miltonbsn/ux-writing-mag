@@ -8,6 +8,7 @@ const articles = [
     "categoryDescription": "GUIA",
     "when": "5 junho de 2019",
     "coverImage": "/images/article1-banner.jpg",
+    "relatedArticles":["2", "3"],
     "body": `
     <p>Todos já ouvimos falar que a primeira impressão é a que fica. Se nas relações interpessoais a frase pode gerar discussões, na tecnologia ela é comprovadamente um fato. </p>
     <p>Segundo uma pesquisa do Marketwired de 2014, 90% dos usuários relataram parar de usar um aplicativo ou desinstalá-lo do celular porque tiveram uma primeira experiência ruim. </p>
@@ -60,6 +61,7 @@ const articles = [
     "categoryDescription": "GUIA",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article2-banner.jpg",
+    "relatedArticles":["3", "4"],
     "body": `
     <p>Em 1988, a internet chegava pela primeira vez no Brasil, no Laboratório Nacional de Computação Científica (LNCC), no Rio de Janeiro, por meio de uma conexão estabelecida com a Universidade de Maryland, nos Estados Unidos.</p>
     <p>Pouco a pouco outras universidades foram ligando-se à Bitnet, mas foi só em 1994 que o Governo Brasileiro anunciou, por meio do Ministério de Ciência e Tecnologia e do Ministério das Comunicações, a criação da estrutura necessária para a exploração comercial da Internet. </p>
@@ -125,6 +127,7 @@ const articles = [
     "categoryDescription": "DICAS",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article3-banner.png",
+    "relatedArticles":["4", "5"],
     "body": `
     <h2 style="margin-top:35px; margin-bottom:-3px;">Três princípios básicos</h2>
     <p>Durante uma palestra para o maior evento de desenvolvimento de Software do Brasil, o <em>The Developers Conference</em>, realizada em abril de 2019 em Florianópolis, Alice Saraiva, uma das primeiras UX Writers do país, elencou 3 princípios básicos para todo texto de UX Writing: <strong>clareza, concisão e consistência.</strong> </p>
@@ -172,6 +175,7 @@ const articles = [
     "categoryDescription": "Métricas e processos",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article4-banner.jpeg",
+    "relatedArticles":["5", "1"],
     "body": `
     <p>O "Lorem Ipsum" já foi uma ferramenta chave para os designers e diagramadores. Basta escolher a quantidade de caracteres ou parágrafos, e o site gera um conteúdo fictício com a extensão desejada. Depois, era necessário adaptar a redação para encaixar nesse espaço.</p>
     <p>Como o texto e o visual eram criados separadamente, era comum as brigas entre profissionais: o designer queria priorizar a estética e, o redator, o conteúdo.</p>
@@ -225,6 +229,7 @@ const articles = [
     "categoryDescription": "Métricas e processos",
     "when": "11 de junho de 2019",
     "coverImage": "/images/article5-banner.jpeg",
+    "relatedArticles":["1", "2"],
     "body": `
     <p>Os testes de usabilidade servem para compreender se o que você está projetando/construindo faz sentido para o seu usuário final. </p>
     <p>Existem diversos tipos de teste mas, obrigatoriamente, todos envolvem observar pessoas reais interagindo com seu produto com a intenção de entender a eficiência dele em um contexto de uso. </p>
@@ -317,8 +322,8 @@ const articles = [
 
 export const getArticles = () => { return articles };
 
-export const getRelatedPosts = (articleId, category) => {
-  return articles.filter(article => articleId !== article.id && category === article.category);
+export const getRelatedPosts = (articleId, related) => {
+  return articles.filter(article => articleId !== article.id && related.includes(article.id));
 }
 
 export const getArticlesByCategory = (category) => {
